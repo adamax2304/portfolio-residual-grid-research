@@ -1,0 +1,54 @@
+{
+  "all_tests_pass": true,
+  "automated_tests": {
+    "output": ".............................................                            [100%]",
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "backtest_engine_status": "PASS_WITH_ISSUES",
+  "breakout_continuation_status": "INCONCLUSIVE",
+  "calendar_validation": {
+    "calendar": "XNYS",
+    "checks": 5,
+    "status": "PASS"
+  },
+  "frozen_snapshot_valid": true,
+  "gate_failures": [
+    "No Alpha Vantage credential/entitlement was available.",
+    "No independent 5m/15m dataset with at least two years of coverage was obtained.",
+    "Point-in-time/as-close event coverage could not be verified.",
+    "No OOS, cost-stress, best-campaign, or best-month gate can be evaluated."
+  ],
+  "grid_parameter_reasonableness": "MIXED",
+  "independent_data_status": "FAIL",
+  "live_trading_status": "NO-GO",
+  "natural_long_grid_status": "INCONCLUSIVE",
+  "next_recommended_phase": "PHASE_2D_RESUME_WITH_LICENSED_INDEPENDENT_INTRADAY_DATA",
+  "phase": "2D",
+  "phase2d_status": "NO-GO-DATA",
+  "phase_2a_2b_corrected_conclusion": "INCONCLUSIVE",
+  "pnl_reconciliation": "PASS_MECHANICAL_FIXTURE_ONLY",
+  "prior_artifact_integrity": {
+    "added": [],
+    "changed": [],
+    "checked": 94,
+    "missing": [],
+    "status": "PASS"
+  },
+  "promoted_strategies": [],
+  "provider_preflight": {
+    "adjusted_indicators_supported": true,
+    "credential_present": false,
+    "historical_intraday_supported": true,
+    "independent_from_prior_source": true,
+    "provider": "alpha_vantage",
+    "raw_execution_supported": true,
+    "ready": false,
+    "reason": "missing ALPHA_VANTAGE_API_KEY; historical intraday is a credentialed premium endpoint"
+  },
+  "research_continuation": "NO-GO",
+  "residual_stock_to_etf_status": "INCONCLUSIVE",
+  "snapshot_failures": [],
+  "stock_to_stock_pairs_status": "INCONCLUSIVE",
+  "stop_tp_mechanics": "MIXED"
+}

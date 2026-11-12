@@ -1,0 +1,356 @@
+{
+  "full_period": {
+    "residual_grid:CSCO/XLK": {
+      "buy_and_hold": 1.0435009833047708,
+      "secondary_buy_and_hold": 1.168311697030218,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.2426343378359188,
+      "edge_found": false
+    },
+    "residual_grid:CSCO/QQQ": {
+      "buy_and_hold": 1.0435009833047708,
+      "secondary_buy_and_hold": 0.9373225047545186,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.36695985428585787,
+      "edge_found": false
+    },
+    "residual_grid:VZ/XLC": {
+      "buy_and_hold": 0.7589628463779028,
+      "secondary_buy_and_hold": 0.7269805740506632,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.13443637367309247,
+      "edge_found": false
+    },
+    "residual_grid:MO/XLP": {
+      "buy_and_hold": 0.9626007075218681,
+      "secondary_buy_and_hold": 0.2719966193512766,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": -0.029915292097947854,
+      "edge_found": false
+    },
+    "residual_grid:XOM/XLE": {
+      "buy_and_hold": 0.5502682998808635,
+      "secondary_buy_and_hold": 0.5543560387808173,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.2458167489543488,
+      "edge_found": false
+    },
+    "residual_grid:JPM/XLF": {
+      "buy_and_hold": 1.6093740077668954,
+      "secondary_buy_and_hold": 0.7561864933868139,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.08940616553553671,
+      "edge_found": false
+    },
+    "residual_grid:PFE/XLV": {
+      "buy_and_hold": -0.035679859549003656,
+      "secondary_buy_and_hold": 0.34975250456538554,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": -0.009723652850545217,
+      "edge_found": false
+    },
+    "stock_pair_grid:VZ/T": {
+      "buy_and_hold": 0.7589628463779028,
+      "secondary_buy_and_hold": 1.053344934224548,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.21717264340615805,
+      "edge_found": false
+    },
+    "stock_pair_grid:KO/PEP": {
+      "buy_and_hold": 0.6219619067290243,
+      "secondary_buy_and_hold": -0.12519684894270167,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.02862650881267781,
+      "edge_found": false
+    },
+    "stock_pair_grid:XOM/CVX": {
+      "buy_and_hold": 0.5502682998808635,
+      "secondary_buy_and_hold": 0.439344135951949,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.18937300282394198,
+      "edge_found": false
+    },
+    "stock_pair_grid:JPM/BAC": {
+      "buy_and_hold": 1.6093740077668954,
+      "secondary_buy_and_hold": 1.3240714056526586,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.38901530994046407,
+      "edge_found": false
+    },
+    "stock_pair_grid:MA/V": {
+      "buy_and_hold": 0.4188582049646403,
+      "secondary_buy_and_hold": 0.5465803052050999,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.11329163329799496,
+      "edge_found": false
+    },
+    "natural_long_grid:CSCO": {
+      "buy_and_hold": 1.0435009833047708,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.31138967265576434,
+      "edge_found": false
+    },
+    "natural_long_grid:VZ": {
+      "buy_and_hold": 0.7589628463779028,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.25094944837991795,
+      "edge_found": false
+    },
+    "natural_long_grid:T": {
+      "buy_and_hold": 1.053344934224548,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": -0.03459391976163739,
+      "edge_found": false
+    },
+    "natural_long_grid:MO": {
+      "buy_and_hold": 0.9626007075218681,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": -0.016532073342163334,
+      "edge_found": false
+    },
+    "natural_long_grid:KO": {
+      "buy_and_hold": 0.6219619067290243,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.05665504794415144,
+      "edge_found": false
+    },
+    "natural_long_grid:PEP": {
+      "buy_and_hold": -0.12519684894270167,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": -0.008115117916135506,
+      "edge_found": false
+    },
+    "natural_long_grid:XOM": {
+      "buy_and_hold": 0.5502682998808635,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.2277040848221057,
+      "edge_found": false
+    },
+    "natural_long_grid:CVX": {
+      "buy_and_hold": 0.439344135951949,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.2728621682543686,
+      "edge_found": false
+    },
+    "natural_long_grid:JPM": {
+      "buy_and_hold": 1.6093740077668954,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.14818121371641557,
+      "edge_found": false
+    },
+    "natural_long_grid:BAC": {
+      "buy_and_hold": 1.3240714056526586,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.14352694177798275,
+      "edge_found": false
+    },
+    "natural_long_grid:MA": {
+      "buy_and_hold": 0.4188582049646403,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.45117287492452607,
+      "edge_found": false
+    },
+    "natural_long_grid:V": {
+      "buy_and_hold": 0.5465803052050999,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": 0.33435875582267127,
+      "edge_found": false
+    },
+    "natural_long_grid:PFE": {
+      "buy_and_hold": -0.035679859549003656,
+      "secondary_buy_and_hold": null,
+      "spy": 0.7718724845902907,
+      "naive_two_level_mean_reversion": -0.0224670208547324,
+      "edge_found": false
+    }
+  },
+  "oos": {
+    "residual_grid:CSCO/XLK": {
+      "buy_and_hold": 1.405836645693638,
+      "secondary_buy_and_hold": 0.8049105267557981,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.2426343378359188,
+      "edge_found": false
+    },
+    "residual_grid:CSCO/QQQ": {
+      "buy_and_hold": 1.405836645693638,
+      "secondary_buy_and_hold": 0.6350999890965026,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.36695985428585787,
+      "edge_found": false
+    },
+    "residual_grid:VZ/XLC": {
+      "buy_and_hold": 0.4686661864190027,
+      "secondary_buy_and_hold": 0.4410001352287338,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.13443637367309247,
+      "edge_found": false
+    },
+    "residual_grid:MO/XLP": {
+      "buy_and_hold": 1.0244547117050322,
+      "secondary_buy_and_hold": 0.21485905926712667,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": -0.029915292097947854,
+      "edge_found": false
+    },
+    "residual_grid:XOM/XLE": {
+      "buy_and_hold": 0.6325205532904714,
+      "secondary_buy_and_hold": 0.5914287539240941,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.2458167489543488,
+      "edge_found": false
+    },
+    "residual_grid:JPM/XLF": {
+      "buy_and_hold": 1.0398909851691993,
+      "secondary_buy_and_hold": 0.4979446072211622,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.08940616553553671,
+      "edge_found": false
+    },
+    "residual_grid:PFE/XLV": {
+      "buy_and_hold": 0.2613634806880911,
+      "secondary_buy_and_hold": 0.22146809717306026,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": -0.009723652850545217,
+      "edge_found": false
+    },
+    "stock_pair_grid:VZ/T": {
+      "buy_and_hold": 0.4686661864190027,
+      "secondary_buy_and_hold": 0.7104722071305607,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.21717264340615805,
+      "edge_found": false
+    },
+    "stock_pair_grid:KO/PEP": {
+      "buy_and_hold": 0.5905829477159135,
+      "secondary_buy_and_hold": -0.08222184098989616,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.02862650881267781,
+      "edge_found": false
+    },
+    "stock_pair_grid:XOM/CVX": {
+      "buy_and_hold": 0.6325205532904714,
+      "secondary_buy_and_hold": 0.514985387407682,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.18937300282394198,
+      "edge_found": false
+    },
+    "stock_pair_grid:JPM/BAC": {
+      "buy_and_hold": 1.0398909851691993,
+      "secondary_buy_and_hold": 0.9316124531694203,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.38901530994046407,
+      "edge_found": false
+    },
+    "stock_pair_grid:MA/V": {
+      "buy_and_hold": 0.23335702196934704,
+      "secondary_buy_and_hold": 0.349746546944413,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.11329163329799496,
+      "edge_found": false
+    },
+    "natural_long_grid:CSCO": {
+      "buy_and_hold": 1.405836645693638,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.20459227079925157,
+      "edge_found": false
+    },
+    "natural_long_grid:VZ": {
+      "buy_and_hold": 0.4686661864190027,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.2282633754987744,
+      "edge_found": false
+    },
+    "natural_long_grid:T": {
+      "buy_and_hold": 0.7104722071305607,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": -0.07537724854086703,
+      "edge_found": false
+    },
+    "natural_long_grid:MO": {
+      "buy_and_hold": 1.0244547117050322,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": -0.03658250673774932,
+      "edge_found": false
+    },
+    "natural_long_grid:KO": {
+      "buy_and_hold": 0.5905829477159135,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.023871251883020195,
+      "edge_found": false
+    },
+    "natural_long_grid:PEP": {
+      "buy_and_hold": -0.08222184098989616,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": -0.05723486284491719,
+      "edge_found": false
+    },
+    "natural_long_grid:XOM": {
+      "buy_and_hold": 0.6325205532904714,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.20126251052392674,
+      "edge_found": false
+    },
+    "natural_long_grid:CVX": {
+      "buy_and_hold": 0.514985387407682,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.2728621682543686,
+      "edge_found": false
+    },
+    "natural_long_grid:JPM": {
+      "buy_and_hold": 1.0398909851691993,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.14818121371641557,
+      "edge_found": false
+    },
+    "natural_long_grid:BAC": {
+      "buy_and_hold": 0.9316124531694203,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.14352694177798275,
+      "edge_found": false
+    },
+    "natural_long_grid:MA": {
+      "buy_and_hold": 0.23335702196934704,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.4603852387139298,
+      "edge_found": false
+    },
+    "natural_long_grid:V": {
+      "buy_and_hold": 0.349746546944413,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": 0.2980526713814293,
+      "edge_found": false
+    },
+    "natural_long_grid:PFE": {
+      "buy_and_hold": 0.2613634806880911,
+      "secondary_buy_and_hold": null,
+      "spy": 0.5470880821138531,
+      "naive_two_level_mean_reversion": -0.04536162979816516,
+      "edge_found": false
+    }
+  }
+}

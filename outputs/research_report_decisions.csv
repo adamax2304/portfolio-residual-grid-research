@@ -1,0 +1,318 @@
+run,timestamp,strategy,state_from,state_to,reason,score,symbol,metadata
+residual_grid:CSCO/XLK,2022-08-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,82.9521,CSCO,{}
+residual_grid:CSCO/XLK,2022-08-23,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,92.1511,CSCO,{}
+residual_grid:CSCO/XLK,2022-08-24,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/XLK,2022-08-25,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,73.6568,CSCO,{}
+residual_grid:CSCO/XLK,2022-08-30,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,74.9077,CSCO,{}
+residual_grid:CSCO/XLK,2022-08-31,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/XLK,2022-09-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,83.161,CSCO,{}
+residual_grid:CSCO/XLK,2022-09-08,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,74.9703,CSCO,{}
+residual_grid:CSCO/XLK,2022-09-09,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/XLK,2022-09-12,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,68.6671,CSCO,{}
+residual_grid:CSCO/XLK,2022-09-26,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,93.4404,CSCO,{}
+residual_grid:CSCO/XLK,2022-09-27,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,98.2843,CSCO,{}
+residual_grid:CSCO/XLK,2022-10-04,residual_grid,GRID_ACTIVE,GRID_EXITING,time stop,,CSCO,{}
+residual_grid:CSCO/QQQ,2022-08-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,84.5332,CSCO,{}
+residual_grid:CSCO/QQQ,2022-08-10,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,78.431,CSCO,{}
+residual_grid:CSCO/QQQ,2022-08-11,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/QQQ,2022-08-12,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,85.0,CSCO,{}
+residual_grid:CSCO/QQQ,2022-08-30,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,85.0,CSCO,{}
+residual_grid:CSCO/QQQ,2022-08-31,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,89.3345,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-07,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,77.1448,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-08,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-09,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,80.6962,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-12,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,82.1996,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-13,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,81.4183,CSCO,{}
+residual_grid:CSCO/QQQ,2022-09-20,residual_grid,GRID_ACTIVE,GRID_EXITING,time stop,,CSCO,{}
+residual_grid:VZ/XLC,2022-08-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,85.0,VZ,{}
+residual_grid:VZ/XLC,2022-08-22,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,81.4998,VZ,{}
+residual_grid:VZ/XLC,2022-08-23,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,82.6586,VZ,{}
+residual_grid:VZ/XLC,2022-08-30,residual_grid,GRID_ACTIVE,GRID_EXITING,time stop,,VZ,{}
+residual_grid:MO/XLP,2022-08-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,70.3228,MO,{}
+residual_grid:MO/XLP,2022-08-29,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,85.8557,MO,{}
+residual_grid:MO/XLP,2022-08-30,residual_grid,ARMED,SCAN,armed setup expired,,MO,{}
+residual_grid:MO/XLP,2022-08-31,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,80.0257,MO,{}
+residual_grid:MO/XLP,2022-09-08,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,74.428,MO,{}
+residual_grid:MO/XLP,2022-09-09,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,70.1413,MO,{}
+residual_grid:MO/XLP,2022-09-16,residual_grid,GRID_ACTIVE,GRID_EXITING,time stop,,MO,{}
+residual_grid:JPM/XLF,2022-08-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,93.0728,JPM,{}
+residual_grid:JPM/XLF,2022-08-10,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,78.0767,JPM,{}
+residual_grid:JPM/XLF,2022-08-11,residual_grid,ARMED,SCAN,armed setup expired,,JPM,{}
+residual_grid:JPM/XLF,2022-08-12,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,84.0282,JPM,{}
+residual_grid:JPM/XLF,2022-11-03,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,92.8384,JPM,{}
+residual_grid:JPM/XLF,2022-11-04,residual_grid,ARMED,SCAN,armed setup expired,,JPM,{}
+residual_grid:JPM/XLF,2022-11-07,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,71.291,JPM,{}
+residual_grid:JPM/XLF,2022-11-09,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,100.0,JPM,{}
+residual_grid:JPM/XLF,2022-11-10,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,100.0,JPM,{}
+residual_grid:JPM/XLF,2022-11-17,residual_grid,GRID_ACTIVE,GRID_EXITING,time stop,,JPM,{}
+residual_grid:XOM/XLE,2022-08-01,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,80.4737,XOM,{}
+residual_grid:XOM/XLE,2022-08-08,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,71.9888,XOM,{}
+residual_grid:XOM/XLE,2022-08-09,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2022-08-10,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.0159,XOM,{}
+residual_grid:XOM/XLE,2022-08-11,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,74.8587,XOM,{}
+residual_grid:XOM/XLE,2022-08-12,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2022-08-15,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,83.236,XOM,{}
+residual_grid:XOM/XLE,2022-08-17,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,75.8218,XOM,{}
+residual_grid:XOM/XLE,2022-08-18,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2022-08-19,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,69.1634,XOM,{}
+residual_grid:XOM/XLE,2022-09-05,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,76.518,XOM,{}
+residual_grid:XOM/XLE,2022-09-06,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,84.7717,XOM,{}
+residual_grid:XOM/XLE,2022-09-07,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2022-09-08,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2022-09-09,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+stock_pair_grid:VZ/T,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2022-10-18,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2022-10-19,stock_pair_grid,ARMED,SCAN,pair setup expired,,VZ,{}
+stock_pair_grid:VZ/T,2022-10-20,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2022-10-25,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2022-10-26,stock_pair_grid,ARMED,SCAN,pair setup expired,,VZ,{}
+stock_pair_grid:VZ/T,2022-10-27,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2022-11-14,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2022-11-15,stock_pair_grid,ARMED,SCAN,pair setup expired,,VZ,{}
+stock_pair_grid:VZ/T,2022-11-16,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2022-11-22,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2022-11-23,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,VZ,{}
+stock_pair_grid:VZ/T,2022-11-30,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,VZ,{}
+stock_pair_grid:KO/PEP,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2022-08-05,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,KO,{}
+stock_pair_grid:KO/PEP,2022-08-08,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,KO,{}
+stock_pair_grid:KO/PEP,2022-08-15,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,KO,{}
+stock_pair_grid:XOM/CVX,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-08-04,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-08-05,stock_pair_grid,ARMED,SCAN,pair setup expired,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-08-08,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-10-11,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-10-12,stock_pair_grid,ARMED,SCAN,pair setup expired,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-10-13,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-10-14,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-10-17,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,XOM,{}
+stock_pair_grid:XOM/CVX,2022-10-24,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,XOM,{}
+stock_pair_grid:JPM/BAC,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2022-08-04,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2022-08-05,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2022-08-10,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,JPM,{}
+stock_pair_grid:MA/V,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2022-08-09,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2022-08-10,stock_pair_grid,ARMED,SCAN,pair setup expired,,MA,{}
+stock_pair_grid:MA/V,2022-08-11,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2022-08-24,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2022-08-25,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2022-08-26,stock_pair_grid,GRID_ACTIVE,KILL,pair kill z reached,,MA,{}
+stock_pair_grid:HD/LOW,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-02,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-03,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-05,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-08,stock_pair_grid,ARMED,SCAN,pair setup expired,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-09,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-10,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,HD,{}
+stock_pair_grid:HD/LOW,2022-08-18,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,HD,{}
+stock_pair_grid:HD/LOW,2022-09-02,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,HD,{}
+stock_pair_grid:HD/LOW,2022-09-06,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,HD,{}
+stock_pair_grid:HD/LOW,2022-10-05,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,HD,{}
+stock_pair_grid:HD/LOW,2022-10-06,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,HD,{}
+stock_pair_grid:HD/LOW,2022-10-07,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,HD,{}
+stock_pair_grid:HD/LOW,2022-10-10,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,HD,{}
+stock_pair_grid:HD/LOW,2022-10-11,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,HD,{}
+stock_pair_grid:WMT/TGT,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,WMT,{}
+stock_pair_grid:WMT/TGT,2022-08-02,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,WMT,{}
+stock_pair_grid:WMT/TGT,2022-08-03,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,WMT,{}
+stock_pair_grid:WMT/TGT,2022-08-10,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,WMT,{}
+stock_pair_grid:UPS/FDX,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-03,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-04,stock_pair_grid,ARMED,SCAN,pair setup expired,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-05,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-10,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-11,stock_pair_grid,ARMED,SCAN,pair setup expired,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-12,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-29,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-08-30,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-02,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-05,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-05,stock_pair_grid,FLAT,SCAN,resume scanning,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-05,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-12,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-13,stock_pair_grid,ARMED,SCAN,pair setup expired,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-14,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-15,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-16,stock_pair_grid,ARMED,SCAN,pair setup expired,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-19,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-22,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-23,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-09-30,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-10-03,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-10-03,stock_pair_grid,FLAT,SCAN,resume scanning,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-10-03,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-10-17,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-10-18,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,UPS,{}
+stock_pair_grid:UPS/FDX,2022-10-24,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,UPS,{}
+stock_pair_grid:COP/EOG,2022-10-07,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,COP,{}
+stock_pair_grid:COP/EOG,2022-10-10,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,COP,{}
+stock_pair_grid:COP/EOG,2022-10-12,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,COP,{}
+stock_pair_grid:COP/EOG,2022-11-10,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,COP,{}
+stock_pair_grid:COP/EOG,2022-12-09,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,COP,{}
+stock_pair_grid:COP/EOG,2022-12-12,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,COP,{}
+stock_pair_grid:COP/EOG,2022-12-13,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,COP,{}
+stock_pair_grid:COP/EOG,2022-12-20,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,COP,{}
+stock_pair_grid:MS/GS,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MS,{}
+stock_pair_grid:MS/GS,2022-08-04,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MS,{}
+stock_pair_grid:MS/GS,2022-08-05,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MS,{}
+stock_pair_grid:MS/GS,2022-08-12,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,MS,{}
+stock_pair_grid:AEP/EXC,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,AEP,{}
+stock_pair_grid:AEP/EXC,2022-09-19,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,AEP,{}
+stock_pair_grid:AEP/EXC,2022-09-20,stock_pair_grid,ARMED,SCAN,pair setup expired,,AEP,{}
+stock_pair_grid:AEP/EXC,2022-09-21,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,AEP,{}
+stock_pair_grid:AEP/EXC,2022-09-22,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,AEP,{}
+stock_pair_grid:AEP/EXC,2022-09-23,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,AEP,{}
+stock_pair_grid:AEP/EXC,2022-09-29,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,AEP,{}
+stock_pair_grid:DOW/DD,2022-08-01,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,DOW,{}
+stock_pair_grid:DOW/DD,2022-09-02,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,DOW,{}
+stock_pair_grid:DOW/DD,2022-09-05,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,DOW,{}
+stock_pair_grid:DOW/DD,2022-09-12,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair time stop,,DOW,{}
+natural_long_grid:CSCO,2022-04-06,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2022-04-28,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,CSCO,{}
+natural_long_grid:CSCO,2022-04-29,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,CSCO,{}
+natural_long_grid:CSCO,2022-11-16,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,CSCO,{}
+natural_long_grid:CSCO,2022-11-17,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,CSCO,{}
+natural_long_grid:CSCO,2022-11-17,natural_long_grid,FLAT,SCAN,resume scanning,,CSCO,{}
+natural_long_grid:CSCO,2022-11-17,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2022-11-30,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,CSCO,{}
+natural_long_grid:CSCO,2022-12-01,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,CSCO,{}
+natural_long_grid:CSCO,2023-03-29,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,CSCO,{}
+natural_long_grid:CSCO,2023-03-30,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,CSCO,{}
+natural_long_grid:CSCO,2023-03-30,natural_long_grid,FLAT,SCAN,resume scanning,,CSCO,{}
+natural_long_grid:CSCO,2023-04-26,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2023-06-15,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2023-06-27,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2023-07-03,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,CSCO,{}
+natural_long_grid:CSCO,2023-07-04,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,CSCO,{}
+natural_long_grid:CSCO,2023-10-10,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,CSCO,{}
+natural_long_grid:VZ,2022-04-13,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,VZ,{}
+natural_long_grid:VZ,2022-05-03,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,VZ,{}
+natural_long_grid:VZ,2022-05-04,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,VZ,{}
+natural_long_grid:VZ,2022-05-17,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,VZ,{}
+natural_long_grid:VZ,2022-05-18,natural_long_grid,KILL,COOLDOWN,kill orders completed,,VZ,{}
+natural_long_grid:VZ,2022-05-20,natural_long_grid,COOLDOWN,FLAT,cooldown completed,,VZ,{}
+natural_long_grid:VZ,2022-05-20,natural_long_grid,FLAT,SCAN,resume scanning,,VZ,{}
+natural_long_grid:VZ,2022-07-05,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,VZ,{}
+natural_long_grid:VZ,2022-07-06,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,VZ,{}
+natural_long_grid:VZ,2022-07-07,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,VZ,{}
+natural_long_grid:VZ,2022-10-11,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,VZ,{}
+natural_long_grid:VZ,2022-10-12,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,VZ,{}
+natural_long_grid:VZ,2022-10-12,natural_long_grid,FLAT,SCAN,resume scanning,,VZ,{}
+natural_long_grid:VZ,2022-10-12,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,VZ,{}
+natural_long_grid:VZ,2022-11-30,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,VZ,{}
+natural_long_grid:VZ,2022-12-01,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,VZ,{}
+natural_long_grid:VZ,2022-12-08,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,VZ,{}
+natural_long_grid:MO,2022-04-20,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MO,{}
+natural_long_grid:MO,2022-05-03,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,MO,{}
+natural_long_grid:MO,2022-05-04,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,MO,{}
+natural_long_grid:MO,2022-10-13,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,MO,{}
+natural_long_grid:JPM,2022-03-31,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2022-05-06,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,JPM,{}
+natural_long_grid:JPM,2022-05-09,natural_long_grid,ARMED,SCAN,natural grid setup expired,,JPM,{}
+natural_long_grid:JPM,2022-05-10,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2022-05-11,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,JPM,{}
+natural_long_grid:JPM,2022-05-12,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,JPM,{}
+natural_long_grid:JPM,2023-03-13,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,JPM,{}
+natural_long_grid:JPM,2023-03-14,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+natural_long_grid:JPM,2023-03-14,natural_long_grid,FLAT,SCAN,resume scanning,,JPM,{}
+natural_long_grid:JPM,2023-03-14,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2023-03-16,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2023-04-20,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2023-06-01,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2023-07-12,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2023-07-28,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,JPM,{}
+natural_long_grid:JPM,2023-07-31,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,JPM,{}
+natural_long_grid:JPM,2023-10-10,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,JPM,{}
+natural_long_grid:XOM,2022-04-11,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2022-04-13,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2022-04-14,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2022-05-04,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,XOM,{}
+natural_long_grid:XOM,2022-05-05,natural_long_grid,ARMED,SCAN,natural grid setup expired,,XOM,{}
+natural_long_grid:XOM,2022-05-06,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2022-05-13,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,XOM,{}
+natural_long_grid:XOM,2022-05-16,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,XOM,{}
+natural_long_grid:XOM,2022-09-29,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,XOM,{}
+natural_long_grid:XOM,2022-09-30,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+natural_long_grid:XOM,2022-09-30,natural_long_grid,FLAT,SCAN,resume scanning,,XOM,{}
+natural_long_grid:XOM,2022-09-30,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2022-11-24,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2022-11-30,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2022-12-01,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,XOM,{}
+natural_long_grid:XOM,2022-12-02,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,XOM,{}
+natural_long_grid:XOM,2022-12-07,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,XOM,{}
+natural_long_grid:KO,2022-03-28,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,KO,{}
+natural_long_grid:KO,2022-05-13,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,KO,{}
+natural_long_grid:KO,2022-05-16,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,KO,{}
+natural_long_grid:KO,2022-05-17,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,KO,{}
+natural_long_grid:PEP,2022-03-28,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,PEP,{}
+natural_long_grid:PEP,2022-05-04,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,PEP,{}
+natural_long_grid:PEP,2022-05-05,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,PEP,{}
+natural_long_grid:PEP,2022-11-16,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,PEP,{}
+natural_long_grid:MA,2022-03-28,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2022-05-03,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2022-05-11,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2022-05-13,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,MA,{}
+natural_long_grid:MA,2022-05-16,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,MA,{}
+natural_long_grid:MA,2022-12-07,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,MA,{}
+natural_long_grid:V,2022-04-22,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2022-04-29,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,V,{}
+natural_long_grid:V,2022-05-02,natural_long_grid,ARMED,SCAN,natural grid setup expired,,V,{}
+natural_long_grid:V,2022-05-03,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2022-05-04,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,V,{}
+natural_long_grid:V,2022-05-05,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,V,{}
+natural_long_grid:V,2023-03-23,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,V,{}
+natural_long_grid:HD,2022-03-28,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,HD,{}
+natural_long_grid:HD,2022-04-05,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,HD,{}
+natural_long_grid:HD,2022-04-22,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,HD,{}
+natural_long_grid:HD,2022-05-13,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,HD,{}
+natural_long_grid:HD,2022-07-20,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,HD,{}
+natural_long_grid:HD,2022-07-26,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,HD,{}
+natural_long_grid:HD,2022-07-27,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,HD,{}
+natural_long_grid:HD,2022-10-11,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,HD,{}
+natural_long_grid:HD,2022-10-12,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,HD,{}
+natural_long_grid:HD,2022-10-12,natural_long_grid,FLAT,SCAN,resume scanning,,HD,{}
+natural_long_grid:HD,2022-10-12,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,HD,{}
+natural_long_grid:HD,2022-11-29,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,HD,{}
+natural_long_grid:HD,2022-11-30,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,HD,{}
+natural_long_grid:HD,2023-03-30,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,HD,{}
+natural_long_grid:LOW,2022-03-28,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2022-04-29,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,LOW,{}
+natural_long_grid:LOW,2022-05-02,natural_long_grid,ARMED,SCAN,natural grid setup expired,,LOW,{}
+natural_long_grid:LOW,2022-05-03,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2022-05-04,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,LOW,{}
+natural_long_grid:LOW,2022-05-05,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,LOW,{}
+natural_long_grid:LOW,2022-09-26,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,LOW,{}
+natural_long_grid:LOW,2022-09-27,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,LOW,{}
+natural_long_grid:LOW,2022-09-27,natural_long_grid,FLAT,SCAN,resume scanning,,LOW,{}
+natural_long_grid:LOW,2022-10-18,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2022-10-21,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,LOW,{}
+natural_long_grid:LOW,2022-10-24,natural_long_grid,ARMED,SCAN,natural grid setup expired,,LOW,{}
+natural_long_grid:LOW,2022-10-25,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2022-10-27,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,LOW,{}
+natural_long_grid:LOW,2022-10-28,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,LOW,{}
+natural_long_grid:LOW,2023-03-15,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,LOW,{}
+natural_long_grid:LOW,2023-03-16,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,LOW,{}
+natural_long_grid:LOW,2023-03-16,natural_long_grid,FLAT,SCAN,resume scanning,,LOW,{}
+natural_long_grid:LOW,2023-03-16,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2023-03-29,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,LOW,{}
+natural_long_grid:LOW,2023-04-21,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2023-05-22,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,LOW,{}
+natural_long_grid:LOW,2023-07-12,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2023-07-31,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,LOW,{}
+natural_long_grid:LOW,2023-08-01,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,LOW,{}
+natural_long_grid:LOW,2023-10-12,natural_long_grid,GRID_ACTIVE,KILL,weekly loss kill-switch,,LOW,{}
+natural_long_grid:LOW,2023-10-13,natural_long_grid,KILL,COOLDOWN,kill orders completed,,LOW,{}
+natural_long_grid:LOW,2023-10-17,natural_long_grid,COOLDOWN,FLAT,cooldown completed,,LOW,{}
+natural_long_grid:LOW,2023-10-17,natural_long_grid,FLAT,SCAN,resume scanning,,LOW,{}
+natural_long_grid:LOW,2023-11-17,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2023-11-21,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,LOW,{}
+natural_long_grid:LOW,2023-12-05,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2023-12-06,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,LOW,{}
+natural_long_grid:LOW,2023-12-07,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,LOW,{}
+natural_long_grid:LOW,2025-04-09,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,LOW,{}
+natural_long_grid:LOW,2025-04-10,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,LOW,{}
+natural_long_grid:LOW,2025-04-10,natural_long_grid,FLAT,SCAN,resume scanning,,LOW,{}
+natural_long_grid:LOW,2025-05-01,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,LOW,{}
+natural_long_grid:LOW,2025-05-09,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,LOW,{}

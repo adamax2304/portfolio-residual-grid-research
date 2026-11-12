@@ -1,0 +1,35 @@
+{
+  "backtest_engine_status": "PASS_WITH_ISSUES",
+  "phase_2a_2b_validity": "PARTIALLY_INVALID",
+  "bugs_found": true,
+  "lookahead_risk": false,
+  "fill_model_status": "PASS",
+  "grid_mechanics_status": "PASS",
+  "stop_logic_status": "PASS",
+  "take_profit_logic_status": "PASS",
+  "residual_math_status": "PASS",
+  "event_filter_status": "PASS",
+  "pnl_reconciliation": "PASS",
+  "live_trading_status": "NO-GO",
+  "next_recommended_phase": "Phase 2D \u2014 frozen-engine independent data replication and intraday ordering validation",
+  "prior_metrics_recommendation": "Do not use Phase 2A/2B numeric metrics as evidence; use them only as archived diagnostics. Corrected reruns are research-only.",
+  "audit_counts": {
+    "documented_bugs": 10,
+    "corrected_runs": 169,
+    "pnl_rows": 4271,
+    "pnl_failures": 0,
+    "max_abs_pnl_discrepancy": 2.9103830456733704e-11,
+    "invalid_state_transitions": 0,
+    "state_exposure_issues": 0,
+    "corrected_grids_outside_range": 0,
+    "entries_allowed_inside_event_window": 0,
+    "relevant_campaign_event_crossings": 0,
+    "stopped_campaigns": 1914
+  },
+  "hard_rules": {
+    "prior_artifacts_preserved": true,
+    "optimization_performed": false,
+    "best_variant_selected_as_edge": false,
+    "live_status_changed": false
+  }
+}

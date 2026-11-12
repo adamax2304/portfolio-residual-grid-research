@@ -1,0 +1,293 @@
+{
+  "artifact_count": 48,
+  "artifacts": [
+    {
+      "path": "outputs\\.gitkeep",
+      "bytes": 1,
+      "mtime_ns": 1788783211312944400,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "outputs\\phase2b\\assets\\natural_long_grid_CSCO.png",
+      "bytes": 101140,
+      "mtime_ns": 1788809907551510900,
+      "sha256": "715c91e69ce6a3afafb237f39e3df8260827696ac7204d48764efdda1761ab84"
+    },
+    {
+      "path": "outputs\\phase2b\\assets\\residual_grid_JPM_XLF.png",
+      "bytes": 101863,
+      "mtime_ns": 1788809906788806600,
+      "sha256": "9770fc07815da5772109394c368ec8442f4c2bbed495d48a03783239e4d79460"
+    },
+    {
+      "path": "outputs\\phase2b\\assets\\residual_grid_XOM_XLE.png",
+      "bytes": 95364,
+      "mtime_ns": 1788809908901539000,
+      "sha256": "f3dd59c33e6ec83c6ea2cfe35ad71a7d421f3e7bd2d10367759f02980b1f7f6b"
+    },
+    {
+      "path": "outputs\\phase2b\\assets\\stock_pair_grid_MA_V.png",
+      "bytes": 85339,
+      "mtime_ns": 1788809908160016300,
+      "sha256": "3cb14b253bf47779434bafebdb5f2f5a295a97ae1798a9563b2977f00ca76fbe"
+    },
+    {
+      "path": "outputs\\phase2b\\breakout_attribution.csv",
+      "bytes": 60326,
+      "mtime_ns": 1788809955480948000,
+      "sha256": "5588fb9a4350194bf08bda8d6ffc7041fcf8cfee9f4a2705b5d60e7dbebd48dd"
+    },
+    {
+      "path": "outputs\\phase2b\\candidate_deep_dive.md",
+      "bytes": 18449,
+      "mtime_ns": 1788809956855273000,
+      "sha256": "22ba9d5767225e7ca97e4eebea93940a80a0e5559e48ad56ec826a1ee1e0684a"
+    },
+    {
+      "path": "outputs\\phase2b\\edge_triage_report.md",
+      "bytes": 19799,
+      "mtime_ns": 1788809956774266900,
+      "sha256": "2375f96c87b682fc54d3d3d0f2c931a495b8354406b0bdcfe7ca6ea8d55bd449"
+    },
+    {
+      "path": "outputs\\phase2b\\event_proximity.csv",
+      "bytes": 176,
+      "mtime_ns": 1788809956731713500,
+      "sha256": "927fb766fc85be315dc3c87381a4fb67a9adcd5042372480399ffa6a5d051ba6"
+    },
+    {
+      "path": "outputs\\phase2b\\expanded_campaigns.csv",
+      "bytes": 726209,
+      "mtime_ns": 1788805817535467100,
+      "sha256": "754287dd380afd19599bc1f10f86d2369220cb1eb0424b5f4f09bc0f52638f56"
+    },
+    {
+      "path": "outputs\\phase2b\\expanded_candidate_sensitivity.csv",
+      "bytes": 8716,
+      "mtime_ns": 1788809699115582500,
+      "sha256": "7c52d4af21e0644b42bc543d8d04550c8970739286cd4efcd74d5c7c0a28e279"
+    },
+    {
+      "path": "outputs\\phase2b\\expanded_fills.csv",
+      "bytes": 2184480,
+      "mtime_ns": 1788805817642006800,
+      "sha256": "f03f398948805150c500d45c71bd10963bf9b766e886a075fb21f2504dcacdf7"
+    },
+    {
+      "path": "outputs\\phase2b\\expanded_universe_metrics.csv",
+      "bytes": 94590,
+      "mtime_ns": 1788809956675718200,
+      "sha256": "4e7810b39f282b8636ceb9ac3eba67003bbc0d8a3edeb42131fc96d642493969"
+    },
+    {
+      "path": "outputs\\phase2b\\pair_diagnostics.csv",
+      "bytes": 12909,
+      "mtime_ns": 1788803616185409600,
+      "sha256": "cc2361e2160afd6c99971897e75eb14b41b703444269f21ca93753747bcf8697"
+    },
+    {
+      "path": "outputs\\phase2b\\phase2a_campaigns_enriched.csv",
+      "bytes": 50347,
+      "mtime_ns": 1788809955448424800,
+      "sha256": "3e9786f98877fc9150b808f27ed9c5a660e83c1735a97c13ebf180c3272cf398"
+    },
+    {
+      "path": "outputs\\phase2b\\phase2a_edge_triage.csv",
+      "bytes": 11890,
+      "mtime_ns": 1788809955443409300,
+      "sha256": "6997268dbe7546f1f801a78488f73a414af3cba8e0003004d8bb6e5cddb678d6"
+    },
+    {
+      "path": "outputs\\phase2b\\phase2b_acceptance.json",
+      "bytes": 141594,
+      "mtime_ns": 1788809956680697700,
+      "sha256": "eaa1506339c150726baf226497e48c4e7a63b1b3be29d5699cb0144adf01327d"
+    },
+    {
+      "path": "outputs\\phase2b\\run_manifest.json",
+      "bytes": 742,
+      "mtime_ns": 1788809956856764300,
+      "sha256": "7cb893f7887b063b3cbec361fffd6bcc8e5b7d8dba545fc2a40b823b792e87af"
+    },
+    {
+      "path": "outputs\\phase2b\\signal_density.csv",
+      "bytes": 17197,
+      "mtime_ns": 1788806818657734200,
+      "sha256": "99fef3acb95e8271ec1cdbf3c383e7664fc79990fcadef10515f881ad23b225b"
+    },
+    {
+      "path": "outputs\\phase2b\\sweep_filter_results.csv",
+      "bytes": 1746,
+      "mtime_ns": 1788806938901773300,
+      "sha256": "5e12aa0867eb341c6a54f03ba2a01a8031c5e22da665339c38bc1df4f80d255d"
+    },
+    {
+      "path": "outputs\\real_data_acceptance_gates.json",
+      "bytes": 6719,
+      "mtime_ns": 1788791812082849000,
+      "sha256": "49a3226feb8baa6501cdaf57a682b097c730a24444c5b9bca5c1d3a757bb9aba"
+    },
+    {
+      "path": "outputs\\real_data_baselines.json",
+      "bytes": 12638,
+      "mtime_ns": 1788791812084852400,
+      "sha256": "f6b6b163d08d00821b1187ca2e0a03e480dbf4b643d3f683fef0fb1f49e7428e"
+    },
+    {
+      "path": "outputs\\real_data_daily_campaigns.csv",
+      "bytes": 38172,
+      "mtime_ns": 1788791812191991300,
+      "sha256": "d20a52306c243627ea2511c2b1f90c0e84095d0755c73473842218d6e96a5d1c"
+    },
+    {
+      "path": "outputs\\real_data_daily_decisions.csv",
+      "bytes": 167814,
+      "mtime_ns": 1788791812185991900,
+      "sha256": "b264c5494e201f5bb9ef513eba098b51c8ecdbfaa15b958c1a051cbeefa939f8"
+    },
+    {
+      "path": "outputs\\real_data_daily_equity.csv",
+      "bytes": 281275,
+      "mtime_ns": 1788791812223001100,
+      "sha256": "b21af234532a80164883d211e49c8f822f5951131a6ef1317f11215735901b58"
+    },
+    {
+      "path": "outputs\\real_data_daily_exposure.csv",
+      "bytes": 212127,
+      "mtime_ns": 1788791812259160200,
+      "sha256": "b96a74aca4aec91ef5f54b254cb9618bf2175ea395a282dc25be2a3cf9840954"
+    },
+    {
+      "path": "outputs\\real_data_daily_fills.csv",
+      "bytes": 175447,
+      "mtime_ns": 1788791812170987800,
+      "sha256": "07830685727c955c7f258302996bf66643204dcd834f22cedb05b29697003063"
+    },
+    {
+      "path": "outputs\\real_data_full_period_metrics.csv",
+      "bytes": 6179,
+      "mtime_ns": 1788791812059847700,
+      "sha256": "0895dd9648f29df41f3925af8d18d6bd56fbb216a95faa409cdca6233183db33"
+    },
+    {
+      "path": "outputs\\real_data_intraday_campaigns.csv",
+      "bytes": 22239,
+      "mtime_ns": 1788791812522212100,
+      "sha256": "47a72945e5c54fe2055b0a52ed2740957d73929846b2702436f283fc7623c89e"
+    },
+    {
+      "path": "outputs\\real_data_intraday_decisions.csv",
+      "bytes": 107332,
+      "mtime_ns": 1788791812515215300,
+      "sha256": "b38b6a90a54e6f12e28549582cac41107fb263015fcdc21528382d456d956a75"
+    },
+    {
+      "path": "outputs\\real_data_intraday_equity.csv",
+      "bytes": 514706,
+      "mtime_ns": 1788791812568728400,
+      "sha256": "1601855f568a3c9bab0874f7b4c2b7842c6288b2dcab8075d9da55a6af091d28"
+    },
+    {
+      "path": "outputs\\real_data_intraday_exposure.csv",
+      "bytes": 367039,
+      "mtime_ns": 1788791812626735100,
+      "sha256": "6984afe6cf5cd9b48a0fa77b65a3ff80ae773029779e1ca3cff767056c4b746c"
+    },
+    {
+      "path": "outputs\\real_data_intraday_fills.csv",
+      "bytes": 142469,
+      "mtime_ns": 1788791812496219000,
+      "sha256": "f9f6b3973c3ff5289ff0a6a419b17333b1dd386fe91f03bdd2db10d786eb3fed"
+    },
+    {
+      "path": "outputs\\real_data_intraday_metrics.csv",
+      "bytes": 4448,
+      "mtime_ns": 1788791812067845300,
+      "sha256": "1a64676ea7647c4bb37b0d2927084ed8b908c3172f1ee29c2de69ddf0419aef6"
+    },
+    {
+      "path": "outputs\\real_data_oos_campaigns.csv",
+      "bytes": 37308,
+      "mtime_ns": 1788791812364686500,
+      "sha256": "31bbb18e7c39ff27b0037f233e75e9b27c7a91fe3750833a2ed90f7ed30b6ccc"
+    },
+    {
+      "path": "outputs\\real_data_oos_decisions.csv",
+      "bytes": 161409,
+      "mtime_ns": 1788791812358685200,
+      "sha256": "91cba04605044b97a1da0c754fc1de148dcb1f7c940fb82eb672e4536a91fa90"
+    },
+    {
+      "path": "outputs\\real_data_oos_equity.csv",
+      "bytes": 279297,
+      "mtime_ns": 1788791812387689000,
+      "sha256": "7b666c01726e2a34297c6705fabf84d43e6adb58f425abce6fe588bc6e5d36ad"
+    },
+    {
+      "path": "outputs\\real_data_oos_exposure.csv",
+      "bytes": 210211,
+      "mtime_ns": 1788791812424684000,
+      "sha256": "9a8417861f647b44a4264231ecfb60cb0daf38a49d59896ff170e84db0aabf7e"
+    },
+    {
+      "path": "outputs\\real_data_oos_fills.csv",
+      "bytes": 171975,
+      "mtime_ns": 1788791812346158400,
+      "sha256": "40f96ae754f3c68bd9a13ed9f81cd58ab85a60f24698e1864efa56ebc9544062"
+    },
+    {
+      "path": "outputs\\real_data_oos_metrics.csv",
+      "bytes": 6199,
+      "mtime_ns": 1788791812063845100,
+      "sha256": "86583d0130030b3f31af930dea2c223cd8c63d33a2072ae0b05b021ed6793e97"
+    },
+    {
+      "path": "outputs\\real_data_research_report.md",
+      "bytes": 25015,
+      "mtime_ns": 1788792086055562200,
+      "sha256": "ae7a02635355513688e34d81c8fd531cac60eb14d733655bde7686a99cd74c3a"
+    },
+    {
+      "path": "outputs\\real_data_sensitivity.csv",
+      "bytes": 17651,
+      "mtime_ns": 1788791812081850600,
+      "sha256": "6e5b3da925276429eb6f900765418a93761b54ad2bb4025b334003fff9f3f8e2"
+    },
+    {
+      "path": "outputs\\real_data_walk_forward_monthly.csv",
+      "bytes": 113240,
+      "mtime_ns": 1788791812077861400,
+      "sha256": "4065b0e7adfd502a2a97678f8e1d024a75d5602b80c7840bc1e8c36990fb2ce9"
+    },
+    {
+      "path": "outputs\\research_report.md",
+      "bytes": 15977,
+      "mtime_ns": 1788785986816422700,
+      "sha256": "c89799117f754cf181ac29bec0d9a359af23e578128719cb21ebe988f94c35ec"
+    },
+    {
+      "path": "outputs\\research_report_decisions.csv",
+      "bytes": 32693,
+      "mtime_ns": 1788785986846950500,
+      "sha256": "485efdd9e2743388d2958c55d2891e5cfead1bbbb14ae71be869e193a882f912"
+    },
+    {
+      "path": "outputs\\research_report_diagnostics.json",
+      "bytes": 15190,
+      "mtime_ns": 1788785986885958100,
+      "sha256": "c077a6034d9eea81810f3e41e3224a193f82cf784178f97c08a25d93d991b09e"
+    },
+    {
+      "path": "outputs\\research_report_equity.csv",
+      "bytes": 453113,
+      "mtime_ns": 1788785986881949100,
+      "sha256": "20cfd6d2cdcaee6e32c20fc0599dfd2f38ab1381d04e478568122b47c668e87e"
+    },
+    {
+      "path": "outputs\\research_report_trades.csv",
+      "bytes": 62814,
+      "mtime_ns": 1788785986839950600,
+      "sha256": "2b1b4a3608d4cabf3e6a73bd7abe2a0b2b8eb70aafc35afa19b7ad0d35f11f58"
+    }
+  ]
+}

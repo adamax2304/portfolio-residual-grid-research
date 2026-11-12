@@ -1,0 +1,209 @@
+project:
+  name: residual_grid_phase2d_frozen_independent_validation
+  package_version: 0.1.0
+  starting_capital_usd: 100000
+  timezone: America/New_York
+  seed: 42
+
+phase2d:
+  protocol: FROZEN_ENGINE_INDEPENDENT_VALIDATION
+  phase2a_phase2b_status: PARTIALLY_INVALID
+  live_trading_status: NO-GO
+  allowed_post_freeze_changes: [DATA_ADAPTER_ONLY, BUG_FIX, REPORTING_ONLY, TEST_ONLY]
+  restart_on_result_changing_bug_fix: true
+
+data:
+  provider: alpha_vantage
+  provider_independence: independent_from_yfinance_phase2a_phase2b
+  api_key_env: ALPHA_VANTAGE_API_KEY
+  start: 2021-09-01
+  end: 2026-09-04
+  minimum_years: 2
+  preferred_years: 5
+  baseline_interval: 5min
+  robustness_interval: 15min
+  intervals: [5min, 15min]
+  adjusted_indicators: true
+  raw_execution: true
+  extended_hours: false
+  regular_hours_only: true
+  cache_dir: data/phase2d/raw/alpha_vantage
+  event_cache_dir: data/phase2d/events/alpha_vantage
+  calendar: XNYS
+  no_trade_window_minutes: 10
+
+universe:
+  stock_etf_pairs:
+    - [CSCO, XLK]
+    - [JPM, XLF]
+    - [XOM, XLE]
+    - [VZ, XLC]
+    - [MO, XLP]
+    - [KO, XLP]
+    - [PFE, XLV]
+    - [CVX, XLE]
+    - [BAC, XLF]
+    - [MSFT, XLK]
+    - [AAPL, XLK]
+  stock_pairs:
+    - [MA, V]
+    - [JPM, BAC]
+    - [XOM, CVX]
+    - [KO, PEP]
+    - [VZ, T]
+    - [CSCO, IBM]
+    - [PFE, MRK]
+  natural_long_symbols: [CSCO, XOM, JPM, VZ, MO, KO, PFE, CVX, BAC, MSFT, AAPL]
+  benchmarks: [SPY, QQQ]
+  min_price: 5
+  min_average_daily_dollar_volume: 50000000
+  min_history_bars: 1000
+
+features:
+  correlation_windows: [30, 60, 90, 120]
+  beta_window: 60
+  z_window: 90
+  stock_etf_corr_min: 0.65
+  stock_etf_short_corr_min: 0.70
+  stock_pair_corr_min: 0.75
+  stock_pair_corr_90_min: 0.65
+  correlation_kill: 0.55
+  beta_stability_max: 0.35
+  zone_width_atr: 0.5
+  adx_period: 14
+  adx_filter_enabled: true
+  range_adx_max: 23
+  range_width_atr_min: 3.0
+  range_width_atr_max: 10.0
+  atr_expansion_max: 1.4
+  market_adx_max: 25
+  market_atr_expansion_max: 1.5
+  candidate_score_min: 70
+
+strategy:
+  residual:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+    allow_short_stock: true
+    hedge_with_etf: true
+    hedge_method: beta_neutral
+  pairs:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+    hedge_method: beta_neutral
+    stationarity_proxy: true
+  natural:
+    lower_range_fraction: 0.35
+    grid_step_atr: 0.55
+    hard_stop_atr: 0.6
+    stop_variant: current
+    tp_mode: range_scaleout
+    atr_kill_multiple: 1.5
+    pivot_window: 5
+    range_lookback: 60
+    max_holding_days: 10
+    grid_level_count: 4
+    max_grid_depth: 4
+  breakout:
+    enabled: true
+    minimum_score: 70
+    volume_ratio: 1.5
+    confirmation_closes: 2
+    confirmation_mode: closes
+    atr_buffer: 0.2
+    failed_breakout_bars: 3
+  liquidity_sweep:
+    mode: none
+    reclaim_bars: 3
+    size_boost: 1.25
+
+risk:
+  max_risk_per_trade_pct: 0.01
+  max_daily_loss_pct: 0.025
+  max_weekly_loss_pct: 0.06
+  max_gross_leverage: 6.0
+  max_effective_leverage_start: 2.0
+  max_open_positions: 4
+  max_kills_per_symbol_per_month: 4
+  cooldown_days: 2
+  max_campaign_mae_r: 1.0
+  layer_weights: [0.20, 0.25, 0.25, 0.30]
+
+costs:
+  commission_per_fill_usd: 0.50
+  spread_bps: 2.0
+  slippage_bps: 3.0
+  short_borrow_annual_pct: 0.03
+  overnight_holding_annual_pct: 0.0
+  minimum_order_usd: 50
+  partial_fill_ratio: 1.0
+  costs_safety_multiple: 3.0
+  stress_multiplier: 2.0
+
+events:
+  source: alpha_vantage_as_close_as_possible
+  point_in_time_guaranteed: false
+  earnings_before_trading_days: 5
+  earnings_after_trading_days: 2
+  ex_dividend_short_buffer_days: 2
+  existing_position_behavior: hold_but_no_new_adds
+  apply_to_both_legs: true
+  recheck_pending_orders: true
+
+execution:
+  signal_timing: candle_close
+  market_execution: next_bar_open
+  resting_limits: touch_required
+  same_candle_barrier_order: adverse_first
+  gap_stop: next_available_tradable_price
+  same_bar_entry_exit: adverse_only
+  partial_fills: full
+  accounting_method: average_cost_with_leg_metadata
+  subledgers: [grid_ledger, breakout_ledger, campaign_ledger]
+
+walk_forward:
+  train_months: 6
+  test_months: 1
+  no_test_optimization: true
+
+diagnostics:
+  natural:
+    grid_levels: [3, 5, 7, 9]
+    grid_step_atr: [0.4, 0.6, 0.8, 1.0, 1.2]
+    tp: [0.5_step, 1.0_step, 1.5_step, midpoint]
+    stop: [current, range_low_0.5_atr, range_low_1.0_atr, last_grid_0.5_atr, structure_close]
+    max_depth: [2, 3, 4, 5]
+  residual:
+    z_entry: [1.2, 1.5, 1.8, 2.0]
+    z_exit: [0.8, 0.5, 0.2, 0.0]
+    z_kill: [2.5, 3.0, 3.5]
+    beta_window: [60, 90, 120]
+    hedge: [beta_neutral, dollar_neutral]
+  pairs:
+    z_entry: [1.2, 1.5, 1.8, 2.0]
+    z_exit: [0.8, 0.5, 0.2, 0.0]
+    z_kill: [2.5, 3.0, 3.5]
+    beta_window: [60, 90, 120]
+    correlation_threshold: [0.65, 0.75, 0.85]
+    stationarity_proxy: [true, false]
+
+acceptance:
+  minimum_profit_factor: 1.15
+  require_positive_expectancy: true
+  maximum_campaign_profit_share: 0.25
+  require_best_campaign_removal_pass: true
+  require_best_month_removal_pass: true
+  require_cost_stress_pass: true
+  require_reconciliation: true
+  live_status_default: NO-GO
+
+outputs:
+  directory: outputs/phase2d

@@ -1,0 +1,88 @@
+{
+  "campaigns": 4,
+  "family": "natural_long_grid",
+  "fills": 20,
+  "hypothesis": "H3",
+  "job_id": "H3_CLOSE1__LQ50000000__5min__natural_long_grid__XOM",
+  "metrics": {
+    "annualized_return": 0.0009783908100953198,
+    "average_mae_usd": -178.00337024336613,
+    "average_mfe_usd": 285.1876114002541,
+    "best_5_trade_legs_usd": [
+      588.8729068860357,
+      178.50607252736745,
+      155.85138874554104,
+      -432.3368868023517
+    ],
+    "best_mfe_r": 0.5960872453718002,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 9,
+    "cost_drag_usd": 48.24954551633427,
+    "ending_equity": 100490.89348135657,
+    "expectancy_r": 0.12272337033914812,
+    "expectancy_usd": 122.72337033914812,
+    "exposure_pct": 0.005564387917329093,
+    "fill_count": 20,
+    "financing_cost_usd": 0.0,
+    "kill_count": 3,
+    "max_drawdown": -0.004964526559953608,
+    "max_gross_leverage_used": 0.36951478476836663,
+    "max_net_beta_exposure": 0.5899579822845744,
+    "mean_holding_hours": 40.270833333333336,
+    "mean_reversion_success_rate": 0.5,
+    "median_holding_hours": 23.666666666666668,
+    "number_of_trades": 4,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 78.26801004184199,
+        "pnl_usd": 156.53602008368398,
+        "trades": 2,
+        "win_rate": 0.5
+      },
+      "warning": {
+        "expectancy_usd": 167.17873063645425,
+        "pnl_usd": 334.3574612729085,
+        "trades": 2,
+        "win_rate": 1.0
+      }
+    },
+    "profit_factor": 2.1354420507288583,
+    "sharpe": 0.34141017367347554,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.005100182541147413,
+      "1.0x": 0.004908934813565802,
+      "2.0x": 0.0045264393584023566
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.6378396196610538,
+    "top_week_profit_share": 0.8311890573353524,
+    "total_return": 0.004908934813565802,
+    "turnover": 1.8323105857899797,
+    "win_rate": 0.75,
+    "worst_5_trade_legs_usd": [
+      -432.3368868023517,
+      155.85138874554104,
+      178.50607252736745,
+      588.8729068860357
+    ],
+    "worst_mae_r": -0.4323368868023517
+  },
+  "pair": "XOM",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H3_CLOSE1",
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "after_cost_tp_filter": 0,
+  "after_data_session_filters": 93453,
+  "after_grid_geometry_validation": 0,
+  "after_market_regime_filter": 21043,
+  "after_range_filter": 44579,
+  "after_support_proximity": 3,
+  "after_trend_filter": 24199,
+  "after_volatility_filter": 21450,
+  "after_volume_filter": 4,
+  "cooldown_rejections": 0,
+  "dominant_gate": "range",
+  "event_data_status": "UNAVAILABLE_IN_HF_R_LITE",
+  "event_filter_failed": null,
+  "final_armed_signals": 0,
+  "final_campaigns": 0,
+  "strategy_family": "natural_long_grid",
+  "symbol": "BAC",
+  "timeframe": "5min",
+  "total_candles": 93513
+}

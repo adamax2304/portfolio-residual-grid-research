@@ -1,0 +1,244 @@
+{
+  "residual_grid:CSCO/XLK": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "residual_grid:CSCO/QQQ": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "residual_grid:VZ/XLC": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "residual_grid:MO/XLP": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "residual_grid:XOM/XLE": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "nearby-parameter robustness"
+    ]
+  },
+  "residual_grid:JPM/XLF": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades"
+    ]
+  },
+  "residual_grid:PFE/XLV": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "stock_pair_grid:VZ/T": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "stock_pair_grid:KO/PEP": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "stock_pair_grid:XOM/CVX": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "stock_pair_grid:JPM/BAC": {
+    "passed": false,
+    "failed": [
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "stock_pair_grid:MA/V": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades"
+    ]
+  },
+  "natural_long_grid:CSCO": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades"
+    ]
+  },
+  "natural_long_grid:VZ": {
+    "passed": false,
+    "failed": [
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:T": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:MO": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:KO": {
+    "passed": false,
+    "failed": [
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:PEP": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:XOM": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:CVX": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:JPM": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:BAC": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "no single trade dominates gross profit",
+      "no single week dominates gross profit",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:MA": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:V": {
+    "passed": false,
+    "failed": [
+      "at least 20 OOS trades",
+      "nearby-parameter robustness"
+    ]
+  },
+  "natural_long_grid:PFE": {
+    "passed": false,
+    "failed": [
+      "positive OOS expectancy",
+      "profit factor > 1.15",
+      "drawdown acceptable relative to return",
+      "at least 20 OOS trades",
+      "nearby-parameter robustness"
+    ]
+  }
+}

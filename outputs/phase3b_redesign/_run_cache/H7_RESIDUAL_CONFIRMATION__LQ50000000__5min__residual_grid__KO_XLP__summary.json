@@ -1,0 +1,90 @@
+{
+  "campaigns": 217,
+  "family": "residual_grid",
+  "fills": 1622,
+  "hypothesis": "H7",
+  "job_id": "H7_RESIDUAL_CONFIRMATION__LQ50000000__5min__residual_grid__KO_XLP",
+  "metrics": {
+    "annualized_return": -0.04434022800903048,
+    "average_mae_usd": -130.46849371588655,
+    "average_mfe_usd": 12.344709400485602,
+    "best_5_trade_legs_usd": [
+      297.77542427057205,
+      264.6487525669794,
+      209.46764958349235,
+      204.44624799168204,
+      165.4966804325465
+    ],
+    "best_mfe_r": 0.3051008211285807,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 787,
+    "cost_drag_usd": 17870.351017627097,
+    "ending_equity": 79683.4679056506,
+    "expectancy_r": -0.09362457186335892,
+    "expectancy_usd": -93.62457186335891,
+    "exposure_pct": 0.17329093799682035,
+    "fill_count": 1622,
+    "financing_cost_usd": 101.39449086689287,
+    "kill_count": 144,
+    "max_drawdown": -0.20402901159148012,
+    "max_gross_leverage_used": 4.301141012952324,
+    "max_net_beta_exposure": 1.5528007522323826,
+    "mean_holding_hours": 3.5119047619047614,
+    "mean_reversion_success_rate": 0.6027397260273972,
+    "median_holding_hours": 0.5833333333333334,
+    "number_of_trades": 217,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": -8.601022912426641,
+        "pnl_usd": -627.8746726071448,
+        "trades": 73,
+        "win_rate": 0.6027397260273972
+      },
+      "warning": {
+        "expectancy_usd": -136.7267876509843,
+        "pnl_usd": -19688.65742174174,
+        "trades": 144,
+        "win_rate": 0.0763888888888889
+      }
+    },
+    "profit_factor": 0.14403953140033257,
+    "sharpe": -3.060974401245659,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.11837553830969294,
+      "1.0x": -0.20316532094349404,
+      "2.0x": -0.372744886211096
+    },
+    "sortino": -1.473143580056211,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.08709862149932684,
+    "top_week_profit_share": 0.12524319061831524,
+    "total_return": -0.20316532094349404,
+    "turnover": 641.6938359912721,
+    "win_rate": 0.2534562211981567,
+    "worst_5_trade_legs_usd": [
+      -1270.3145618922958,
+      -874.1713789325908,
+      -803.8248361771109,
+      -714.135775979512,
+      -674.134769568235
+    ],
+    "worst_mae_r": -1.2703145618922957
+  },
+  "pair": "KO/XLP",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H7_RESIDUAL_CONFIRMATION",
+  "warnings": []
+}

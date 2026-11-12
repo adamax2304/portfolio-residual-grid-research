@@ -1,0 +1,87 @@
+{
+  "campaigns": 11,
+  "family": "residual_grid",
+  "fills": 88,
+  "metrics": {
+    "annualized_return": -0.0012983968298945214,
+    "average_mae_usd": -186.38511528797392,
+    "average_mfe_usd": 117.25428459154004,
+    "best_5_trade_legs_usd": [
+      494.23989817859314,
+      251.89810993662735,
+      130.22291471759843,
+      105.27099202812988,
+      -45.3668816841425
+    ],
+    "best_mfe_r": 0.5703787237792567,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 40,
+    "cost_drag_usd": 1262.648878915935,
+    "ending_equity": 99351.51336092074,
+    "expectancy_r": -0.05895333082538771,
+    "expectancy_usd": -58.95333082538771,
+    "exposure_pct": 0.008744038155802861,
+    "fill_count": 88,
+    "financing_cost_usd": 1.5557888054344329,
+    "kill_count": 10,
+    "max_drawdown": -0.01685793675359204,
+    "max_gross_leverage_used": 2.781533397929184,
+    "max_net_beta_exposure": 0.9495474289299032,
+    "mean_holding_hours": 0.5984848484848485,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 0.5,
+    "number_of_trades": 11,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 251.89810993662735,
+        "pnl_usd": 251.89810993662735,
+        "trades": 1,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": -90.03847490158923,
+        "pnl_usd": -900.3847490158922,
+        "trades": 10,
+        "win_rate": 0.3
+      }
+    },
+    "profit_factor": 0.6021843702644901,
+    "sharpe": -0.30879089641726176,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.0003994009402401577,
+      "1.0x": -0.0064848663907925985,
+      "2.0x": -0.01865579729189759
+    },
+    "sortino": -0.05164020196797876,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.5034880087905493,
+    "top_week_profit_share": 0.5034880087905493,
+    "total_return": -0.0064848663907925985,
+    "turnover": 38.7015738189203,
+    "win_rate": 0.36363636363636365,
+    "worst_5_trade_legs_usd": [
+      -439.25191236470874,
+      -423.3946008785018,
+      -250.15568716888612,
+      -241.83978587030126,
+      -166.37688077794803
+    ],
+    "worst_mae_r": -0.43925191236470873
+  },
+  "run_id": "5min__residual_grid__VZ_XLC",
+  "strategy_name": "residual_grid:VZ/XLC",
+  "timeframe": "5min",
+  "warnings": []
+}

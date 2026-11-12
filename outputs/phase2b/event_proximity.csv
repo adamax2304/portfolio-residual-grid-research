@@ -1,0 +1,5 @@
+run,nearest_event_days,within_3,within_5,within_10
+residual_grid:JPM/XLF,1,3,3,6
+natural_long_grid:CSCO,2,2,2,4
+stock_pair_grid:MA/V,2,5,6,8
+residual_grid:XOM/XLE,1,4,6,8

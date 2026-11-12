@@ -1,0 +1,82 @@
+{
+  "campaigns": 1,
+  "family": "natural_long_grid",
+  "fills": 4,
+  "hypothesis": "H3",
+  "job_id": "H3_INTRABAR__LQ50000000__5min__natural_long_grid__JPM",
+  "metrics": {
+    "annualized_return": -0.0009956008498595015,
+    "average_mae_usd": -497.5564317245153,
+    "average_mfe_usd": 103.80532131950167,
+    "best_5_trade_legs_usd": [
+      -497.5564317245153
+    ],
+    "best_mfe_r": 0.10380532131950167,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 1,
+    "cost_drag_usd": 23.94296953553207,
+    "ending_equity": 99502.44356827547,
+    "expectancy_r": -0.4975564317245153,
+    "expectancy_usd": -497.5564317245153,
+    "exposure_pct": 0.000794912559618442,
+    "fill_count": 4,
+    "financing_cost_usd": 0.0,
+    "kill_count": 1,
+    "max_drawdown": -0.006007381548720714,
+    "max_gross_leverage_used": 0.5516149603285461,
+    "max_net_beta_exposure": 0.5455322522483618,
+    "mean_holding_hours": 0.5,
+    "mean_reversion_success_rate": 0.0,
+    "median_holding_hours": 0.5,
+    "number_of_trades": 1,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": -497.5564317245153,
+        "pnl_usd": -497.5564317245153,
+        "trades": 1,
+        "win_rate": 0.0
+      },
+      "warning": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      }
+    },
+    "profit_factor": 0.0,
+    "sharpe": -0.447746945236898,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.004865849469567585,
+      "1.0x": -0.004975564317245329,
+      "2.0x": -0.005194994012600707
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": null,
+    "top_week_profit_share": null,
+    "total_return": -0.004975564317245329,
+    "turnover": 1.1016651817031848,
+    "win_rate": 0.0,
+    "worst_5_trade_legs_usd": [
+      -497.5564317245153
+    ],
+    "worst_mae_r": -0.4975564317245153
+  },
+  "pair": "JPM",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H3_INTRABAR",
+  "warnings": []
+}

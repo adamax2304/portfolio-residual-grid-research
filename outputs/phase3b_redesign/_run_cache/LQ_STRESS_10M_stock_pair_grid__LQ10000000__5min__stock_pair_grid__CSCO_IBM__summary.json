@@ -1,0 +1,90 @@
+{
+  "campaigns": 50,
+  "family": "stock_pair_grid",
+  "fills": 388,
+  "hypothesis": "LIQUIDITY_STRESS",
+  "job_id": "LQ_STRESS_10M_stock_pair_grid__LQ10000000__5min__stock_pair_grid__CSCO_IBM",
+  "metrics": {
+    "annualized_return": -0.010455979468061094,
+    "average_mae_usd": -206.3328481225579,
+    "average_mfe_usd": 79.52612941245057,
+    "best_5_trade_legs_usd": [
+      692.3131499977958,
+      330.2699984348628,
+      286.0993410095915,
+      282.5203030794296,
+      264.9476318997839
+    ],
+    "best_mfe_r": 0.7459959742541395,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 180,
+    "cost_drag_usd": 5136.557387952635,
+    "ending_equity": 94872.69223369105,
+    "expectancy_r": -0.10254615532618169,
+    "expectancy_usd": -102.54615532618169,
+    "exposure_pct": 0.037360890302066775,
+    "fill_count": 388,
+    "financing_cost_usd": 21.6880389226587,
+    "kill_count": 36,
+    "max_drawdown": -0.05793057169170002,
+    "max_gross_leverage_used": 3.803967091053536,
+    "max_net_beta_exposure": 2.1625520538914915,
+    "mean_holding_hours": 1.1250000000000002,
+    "mean_reversion_success_rate": 0.6428571428571429,
+    "median_holding_hours": 0.5,
+    "number_of_trades": 50,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 90.5694053743016,
+        "pnl_usd": 1267.9716752402223,
+        "trades": 14,
+        "win_rate": 0.6428571428571429
+      },
+      "warning": {
+        "expectancy_usd": -177.64665115414743,
+        "pnl_usd": -6395.279441549307,
+        "trades": 36,
+        "win_rate": 0.08333333333333333
+      }
+    },
+    "profit_factor": 0.326878779128129,
+    "sharpe": -0.8196864043305477,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.026668730917939643,
+      "1.0x": -0.05127307766308953,
+      "2.0x": -0.1004817711533893
+    },
+    "sortino": -0.1637990746399088,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.2780479831544248,
+    "top_week_profit_share": 0.312873219321012,
+    "total_return": -0.05127307766308953,
+    "turnover": 173.67296264460782,
+    "win_rate": 0.24,
+    "worst_5_trade_legs_usd": [
+      -2387.5128453399643,
+      -745.0370833818038,
+      -622.1633013668306,
+      -582.7344170828432,
+      -452.42154901156476
+    ],
+    "worst_mae_r": -2.3875128453399643
+  },
+  "pair": "CSCO/IBM",
+  "threshold": 10000000.0,
+  "timeframe": "5min",
+  "variant": "LQ_STRESS_10M_stock_pair_grid",
+  "warnings": []
+}

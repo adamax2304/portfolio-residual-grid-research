@@ -1,0 +1,909 @@
+run,timestamp,strategy,state_from,state_to,reason,score,symbol,metadata
+residual_grid:CSCO/XLK,2026-06-29 13:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,62.313,CSCO,{}
+residual_grid:CSCO/XLK,2026-06-30 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-07 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,78.1745,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-08 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-09 10:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,81.6142,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-09 10:15:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-09 11:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,51.3624,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-09 13:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-13 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,96.1457,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-13 10:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,89.2903,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-13 11:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,87.9574,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-13 12:15:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-13 12:30:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,CSCO,{}
+residual_grid:CSCO/XLK,2026-07-13 12:30:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,CSCO,{}
+residual_grid:CSCO/XLK,2026-09-02 13:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.0586,CSCO,{}
+residual_grid:CSCO/XLK,2026-09-03 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-22 13:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,90.5507,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-22 13:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,90.9802,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-22 13:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,91.3172,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-23 12:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,campaign maximum adverse excursion stop,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-23 13:00:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-25 13:00:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-06-25 13:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-07 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,76.815,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-07 13:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-07 14:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,65.6802,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-07 15:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-07 15:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,65.7658,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-08 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-09 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,49.383,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-09 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-13 11:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,68.2807,CSCO,{}
+residual_grid:CSCO/QQQ,2026-07-13 14:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-20 12:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.9748,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-20 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-25 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,55.381,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-26 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,77.5868,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-26 10:15:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-26 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,55.7076,CSCO,{}
+residual_grid:CSCO/QQQ,2026-08-27 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:CSCO/QQQ,2026-09-02 13:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.096,CSCO,{}
+residual_grid:CSCO/QQQ,2026-09-02 14:15:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,CSCO,{}
+residual_grid:VZ/XLC,2026-07-09 10:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,66.6426,VZ,{}
+residual_grid:VZ/XLC,2026-07-09 10:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-07-10 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,52.5556,VZ,{}
+residual_grid:VZ/XLC,2026-07-14 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-07-15 10:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,50.5539,VZ,{}
+residual_grid:VZ/XLC,2026-07-15 10:15:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-07-29 13:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,51.4003,VZ,{}
+residual_grid:VZ/XLC,2026-07-29 14:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,82.6694,VZ,{}
+residual_grid:VZ/XLC,2026-07-29 15:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,77.1999,VZ,{}
+residual_grid:VZ/XLC,2026-07-29 15:15:00-04:00,residual_grid,GRID_ACTIVE,KILL,relationship/regime invalidation,,VZ,{}
+residual_grid:VZ/XLC,2026-07-29 15:30:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,VZ,{}
+residual_grid:VZ/XLC,2026-07-31 15:30:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,VZ,{}
+residual_grid:VZ/XLC,2026-07-31 15:30:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,VZ,{}
+residual_grid:VZ/XLC,2026-08-03 11:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,55.2535,VZ,{}
+residual_grid:VZ/XLC,2026-08-03 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-08-17 11:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,78.9694,VZ,{}
+residual_grid:VZ/XLC,2026-08-17 11:15:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-08-17 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,53.2503,VZ,{}
+residual_grid:VZ/XLC,2026-08-17 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-08-17 13:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,50.5336,VZ,{}
+residual_grid:VZ/XLC,2026-08-18 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:VZ/XLC,2026-08-28 13:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,49.1574,VZ,{}
+residual_grid:VZ/XLC,2026-08-28 14:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,VZ,{}
+residual_grid:MO/XLP,2026-06-22 09:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,72.853,MO,{}
+residual_grid:MO/XLP,2026-06-22 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,71.3897,MO,{}
+residual_grid:MO/XLP,2026-06-22 10:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,77.4458,MO,{}
+residual_grid:MO/XLP,2026-06-22 12:30:00-04:00,residual_grid,GRID_ACTIVE,KILL,relationship/regime invalidation,,MO,{}
+residual_grid:MO/XLP,2026-06-22 12:45:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,MO,{}
+residual_grid:MO/XLP,2026-06-24 12:45:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,MO,{}
+residual_grid:MO/XLP,2026-06-24 12:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,MO,{}
+residual_grid:MO/XLP,2026-07-07 13:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,52.9614,MO,{}
+residual_grid:MO/XLP,2026-07-08 09:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,82.793,MO,{}
+residual_grid:MO/XLP,2026-07-08 10:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,81.4689,MO,{}
+residual_grid:MO/XLP,2026-07-09 09:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,residual kill z reached,,MO,{}
+residual_grid:MO/XLP,2026-07-09 10:00:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,MO,{}
+residual_grid:MO/XLP,2026-07-13 10:00:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,MO,{}
+residual_grid:MO/XLP,2026-07-13 10:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,MO,{}
+residual_grid:MO/XLP,2026-07-16 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,52.8242,MO,{}
+residual_grid:MO/XLP,2026-07-17 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,MO,{}
+residual_grid:MO/XLP,2026-07-17 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,85.1924,MO,{}
+residual_grid:MO/XLP,2026-07-17 10:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,85.1646,MO,{}
+residual_grid:MO/XLP,2026-07-17 11:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,85.1421,MO,{}
+residual_grid:MO/XLP,2026-07-17 11:15:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,MO,{}
+residual_grid:MO/XLP,2026-07-17 11:30:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,MO,{}
+residual_grid:MO/XLP,2026-07-17 14:30:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,MO,{}
+residual_grid:MO/XLP,2026-07-17 14:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,MO,{}
+residual_grid:MO/XLP,2026-07-17 14:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,MO,{}
+residual_grid:MO/XLP,2026-07-17 14:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,84.337,MO,{}
+residual_grid:MO/XLP,2026-07-17 15:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,82.8995,MO,{}
+residual_grid:MO/XLP,2026-07-17 15:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,81.9039,MO,{}
+residual_grid:MO/XLP,2026-07-20 14:00:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,MO,{}
+residual_grid:MO/XLP,2026-07-20 14:15:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,MO,{}
+residual_grid:MO/XLP,2026-07-20 14:15:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,MO,{}
+residual_grid:MO/XLP,2026-08-12 12:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.7356,MO,{}
+residual_grid:MO/XLP,2026-08-12 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,MO,{}
+residual_grid:MO/XLP,2026-08-17 12:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,66.9956,MO,{}
+residual_grid:MO/XLP,2026-08-18 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,MO,{}
+residual_grid:MO/XLP,2026-08-18 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,54.9362,MO,{}
+residual_grid:MO/XLP,2026-08-18 15:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,81.4492,MO,{}
+residual_grid:MO/XLP,2026-08-19 09:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,71.5227,MO,{}
+residual_grid:MO/XLP,2026-08-19 11:30:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,MO,{}
+residual_grid:MO/XLP,2026-08-19 11:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,MO,{}
+residual_grid:MO/XLP,2026-08-19 11:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,MO,{}
+residual_grid:MO/XLP,2026-08-19 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,50.1951,MO,{}
+residual_grid:MO/XLP,2026-08-19 12:15:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,MO,{}
+residual_grid:XOM/XLE,2026-06-23 10:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.9678,XOM,{}
+residual_grid:XOM/XLE,2026-06-25 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,83.409,XOM,{}
+residual_grid:XOM/XLE,2026-06-25 10:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,95.3291,XOM,{}
+residual_grid:XOM/XLE,2026-06-26 13:00:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-06-26 13:15:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-06-26 13:15:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-06-26 13:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,71.6884,XOM,{}
+residual_grid:XOM/XLE,2026-06-29 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,75.3682,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 10:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,78.8278,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 11:00:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 11:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,66.4341,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 11:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,73.8006,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 11:45:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 12:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,72.9687,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 12:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,71.1312,XOM,{}
+residual_grid:XOM/XLE,2026-07-08 12:30:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,73.5336,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 10:00:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 10:15:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 11:15:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 11:30:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 11:30:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 11:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,93.995,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 11:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,91.4473,XOM,{}
+residual_grid:XOM/XLE,2026-07-09 12:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,88.7732,XOM,{}
+residual_grid:XOM/XLE,2026-07-10 10:45:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-10 11:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-10 11:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-14 09:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.8819,XOM,{}
+residual_grid:XOM/XLE,2026-07-16 11:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,79.7495,XOM,{}
+residual_grid:XOM/XLE,2026-07-16 11:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,94.6735,XOM,{}
+residual_grid:XOM/XLE,2026-07-16 12:45:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-16 13:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-16 13:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-16 13:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.8585,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,68.0987,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 11:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,89.8021,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 11:30:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,94.0394,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 12:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,93.4798,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 12:15:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,73.2177,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 12:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,93.1278,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 13:00:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 13:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,68.2901,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 14:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,75.1271,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 14:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,81.2101,XOM,{}
+residual_grid:XOM/XLE,2026-07-17 15:45:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 09:45:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 10:00:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 10:15:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 10:15:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 10:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,83.3083,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 10:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,83.3358,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 10:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,83.372,XOM,{}
+residual_grid:XOM/XLE,2026-07-20 15:45:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 09:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 09:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 09:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,87.797,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,97.7036,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 10:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,97.6102,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 10:30:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 10:45:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 11:15:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 11:30:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 11:30:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 11:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,97.2302,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 11:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,95.4737,XOM,{}
+residual_grid:XOM/XLE,2026-07-21 12:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,93.3932,XOM,{}
+residual_grid:XOM/XLE,2026-07-22 10:00:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-22 10:15:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-22 10:15:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-07-22 10:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.6556,XOM,{}
+residual_grid:XOM/XLE,2026-07-23 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:XOM/XLE,2026-07-23 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,69.2457,XOM,{}
+residual_grid:XOM/XLE,2026-07-24 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-06 11:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,55.0769,XOM,{}
+residual_grid:XOM/XLE,2026-08-06 12:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,93.127,XOM,{}
+residual_grid:XOM/XLE,2026-08-06 13:00:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-08-06 13:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,91.6873,XOM,{}
+residual_grid:XOM/XLE,2026-08-06 13:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,94.3111,XOM,{}
+residual_grid:XOM/XLE,2026-08-06 13:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,91.9327,XOM,{}
+residual_grid:XOM/XLE,2026-08-07 11:00:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-07 11:15:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-07 11:15:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-07 11:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,68.464,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 09:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,97.9319,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 10:00:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 10:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.9024,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 12:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,78.3394,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 12:45:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 13:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,71.9121,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 15:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,76.1877,XOM,{}
+residual_grid:XOM/XLE,2026-08-10 15:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,77.8828,XOM,{}
+residual_grid:XOM/XLE,2026-08-11 11:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,campaign maximum adverse excursion stop,,XOM,{}
+residual_grid:XOM/XLE,2026-08-11 12:00:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-13 12:00:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-13 12:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-17 14:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,61.626,XOM,{}
+residual_grid:XOM/XLE,2026-08-18 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-18 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,66.4491,XOM,{}
+residual_grid:XOM/XLE,2026-08-19 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-19 10:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.1402,XOM,{}
+residual_grid:XOM/XLE,2026-08-19 15:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,72.7341,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 09:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,82.8413,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 10:00:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 10:15:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 10:30:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 10:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 10:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-20 10:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,72.4676,XOM,{}
+residual_grid:XOM/XLE,2026-08-21 12:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,91.482,XOM,{}
+residual_grid:XOM/XLE,2026-08-21 12:30:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,97.3822,XOM,{}
+residual_grid:XOM/XLE,2026-08-24 10:30:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-24 10:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-24 10:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-24 10:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,83.464,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 09:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,98.464,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 10:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,96.0112,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 10:15:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 10:30:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 10:45:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 11:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 11:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 11:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,95.8684,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 11:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,96.3144,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 11:30:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,94.2756,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 12:00:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 12:15:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 13:15:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 13:30:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 13:30:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 13:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,95.8867,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 13:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,96.8991,XOM,{}
+residual_grid:XOM/XLE,2026-08-26 14:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,96.5528,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 10:30:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 10:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 10:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 10:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,73.0199,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 13:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,87.2571,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 13:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,92.3267,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 14:00:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 14:15:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 14:30:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 14:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 14:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 14:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,77.0872,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 15:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,78.4178,XOM,{}
+residual_grid:XOM/XLE,2026-08-27 15:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,78.7475,XOM,{}
+residual_grid:XOM/XLE,2026-08-28 10:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,relationship/regime invalidation,,XOM,{}
+residual_grid:XOM/XLE,2026-08-28 11:00:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,XOM,{}
+residual_grid:XOM/XLE,2026-09-01 11:00:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,XOM,{}
+residual_grid:XOM/XLE,2026-09-01 11:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,XOM,{}
+residual_grid:XOM/XLE,2026-09-02 12:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.7223,XOM,{}
+residual_grid:XOM/XLE,2026-09-03 14:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,XOM,{}
+residual_grid:JPM/XLF,2026-06-22 09:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,97.3398,JPM,{}
+residual_grid:JPM/XLF,2026-06-22 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,78.334,JPM,{}
+residual_grid:JPM/XLF,2026-06-22 10:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,91.6168,JPM,{}
+residual_grid:JPM/XLF,2026-06-22 14:45:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,JPM,{}
+residual_grid:JPM/XLF,2026-06-22 15:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-06-22 15:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-06-22 15:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,65.5239,JPM,{}
+residual_grid:JPM/XLF,2026-06-24 11:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,74.8142,JPM,{}
+residual_grid:JPM/XLF,2026-06-24 11:30:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,JPM,{}
+residual_grid:JPM/XLF,2026-06-24 11:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,67.2015,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 09:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,92.4088,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 10:00:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 10:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,70.1441,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 11:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,98.0094,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 11:15:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 11:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,69.5924,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 12:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,91.2917,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 12:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,96.4087,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 12:45:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 13:00:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 13:45:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 14:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 14:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 14:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,83.682,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 14:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,81.2794,JPM,{}
+residual_grid:JPM/XLF,2026-06-25 14:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,77.7949,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 10:15:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 10:30:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 10:30:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,90.7416,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 10:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,93.0875,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 11:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,99.0836,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 11:30:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 11:45:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 12:30:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 12:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 12:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 12:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,98.738,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 13:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,98.8206,JPM,{}
+residual_grid:JPM/XLF,2026-06-26 13:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,98.8393,JPM,{}
+residual_grid:JPM/XLF,2026-06-29 09:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,campaign maximum adverse excursion stop,,JPM,{}
+residual_grid:JPM/XLF,2026-06-29 10:00:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-07-01 10:00:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+residual_grid:JPM/XLF,2026-07-01 10:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-07-17 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,61.2351,JPM,{}
+residual_grid:JPM/XLF,2026-07-17 10:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,JPM,{}
+residual_grid:JPM/XLF,2026-07-28 13:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.4514,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 09:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,94.5122,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 10:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,96.5654,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 10:15:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 10:30:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 10:45:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 11:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-07-29 11:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-08-05 14:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,58.9569,JPM,{}
+residual_grid:JPM/XLF,2026-08-05 14:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-05 14:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,48.9336,JPM,{}
+residual_grid:JPM/XLF,2026-08-05 15:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-06 09:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,49.2428,JPM,{}
+residual_grid:JPM/XLF,2026-08-06 10:00:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-06 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,49.2197,JPM,{}
+residual_grid:JPM/XLF,2026-08-07 15:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,81.0258,JPM,{}
+residual_grid:JPM/XLF,2026-08-07 15:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,79.7194,JPM,{}
+residual_grid:JPM/XLF,2026-08-12 09:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,residual kill z reached,,JPM,{}
+residual_grid:JPM/XLF,2026-08-12 10:00:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-14 10:00:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-14 10:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-08-21 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,80.4519,JPM,{}
+residual_grid:JPM/XLF,2026-08-26 13:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,88.8549,JPM,{}
+residual_grid:JPM/XLF,2026-08-26 13:30:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,JPM,{}
+residual_grid:JPM/XLF,2026-08-26 13:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,68.8437,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 10:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 11:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,64.8899,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 11:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,85.846,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 12:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,84.2961,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 13:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,84.3828,JPM,{}
+residual_grid:JPM/XLF,2026-08-28 15:45:00-04:00,residual_grid,GRID_ACTIVE,KILL,residual kill z reached,,JPM,{}
+residual_grid:JPM/XLF,2026-08-31 09:45:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+residual_grid:JPM/XLF,2026-09-02 09:45:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+residual_grid:JPM/XLF,2026-09-02 09:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,JPM,{}
+residual_grid:JPM/XLF,2026-09-04 12:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,69.5557,JPM,{}
+residual_grid:PFE/XLV,2026-07-01 13:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,69.7392,PFE,{}
+residual_grid:PFE/XLV,2026-07-01 13:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,73.7574,PFE,{}
+residual_grid:PFE/XLV,2026-07-01 13:30:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,PFE,{}
+residual_grid:PFE/XLV,2026-07-01 13:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,74.4467,PFE,{}
+residual_grid:PFE/XLV,2026-07-01 14:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,74.4169,PFE,{}
+residual_grid:PFE/XLV,2026-07-01 14:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,76.8973,PFE,{}
+residual_grid:PFE/XLV,2026-07-02 10:30:00-04:00,residual_grid,GRID_ACTIVE,KILL,relationship/regime invalidation,,PFE,{}
+residual_grid:PFE/XLV,2026-07-02 10:45:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-06 10:45:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-06 10:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-07-06 10:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,87.6678,PFE,{}
+residual_grid:PFE/XLV,2026-07-06 11:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,87.6164,PFE,{}
+residual_grid:PFE/XLV,2026-07-06 11:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,87.5679,PFE,{}
+residual_grid:PFE/XLV,2026-07-07 11:45:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-07 12:00:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-07 12:00:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-07-07 12:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,58.4985,PFE,{}
+residual_grid:PFE/XLV,2026-07-07 15:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,83.3374,PFE,{}
+residual_grid:PFE/XLV,2026-07-07 15:45:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 09:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,89.4091,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,88.3532,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 10:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,88.4241,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 10:30:00-04:00,residual_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent residual breakout confirmed,80.0,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 10:45:00-04:00,residual_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,residual breakout continuation entered,,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 12:00:00-04:00,residual_grid,BREAKOUT_ACTIVE,GRID_EXITING,residual breakout exit,,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 12:15:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 12:15:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 12:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,87.8625,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 12:30:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 12:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,82.9584,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 13:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,80.0134,PFE,{}
+residual_grid:PFE/XLV,2026-07-08 13:15:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,77.326,PFE,{}
+residual_grid:PFE/XLV,2026-07-09 12:30:00-04:00,residual_grid,GRID_ACTIVE,KILL,relationship/regime invalidation,,PFE,{}
+residual_grid:PFE/XLV,2026-07-09 12:45:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-13 12:45:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-13 12:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-07-16 10:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,83.0506,PFE,{}
+residual_grid:PFE/XLV,2026-07-16 10:15:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,80.9289,PFE,{}
+residual_grid:PFE/XLV,2026-07-16 10:30:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,75.4561,PFE,{}
+residual_grid:PFE/XLV,2026-07-16 11:30:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-16 11:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-16 11:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-07-20 11:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,73.6909,PFE,{}
+residual_grid:PFE/XLV,2026-07-21 12:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,PFE,{}
+residual_grid:PFE/XLV,2026-07-27 14:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,49.651,PFE,{}
+residual_grid:PFE/XLV,2026-07-28 09:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 12:00:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,59.2439,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 12:15:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 12:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,75.3621,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 12:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,73.4774,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 13:00:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 13:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,66.6061,PFE,{}
+residual_grid:PFE/XLV,2026-08-11 13:45:00-04:00,residual_grid,CANDIDATE,SCAN,candidate gate failed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 10:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,71.2907,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 10:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,71.5424,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 10:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,71.7749,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 12:30:00-04:00,residual_grid,GRID_ACTIVE,GRID_EXITING,residual mean reversion completed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 12:45:00-04:00,residual_grid,GRID_EXITING,FLAT,exit orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 12:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-08-20 12:45:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,60.0,PFE,{}
+residual_grid:PFE/XLV,2026-08-21 10:00:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,82.0925,PFE,{}
+residual_grid:PFE/XLV,2026-08-21 10:15:00-04:00,residual_grid,ARMED,SCAN,armed setup expired,,PFE,{}
+residual_grid:PFE/XLV,2026-08-21 10:30:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,82.4933,PFE,{}
+residual_grid:PFE/XLV,2026-08-25 10:45:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,83.5467,PFE,{}
+residual_grid:PFE/XLV,2026-08-25 11:00:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,87.9709,PFE,{}
+residual_grid:PFE/XLV,2026-08-26 11:30:00-04:00,residual_grid,GRID_ACTIVE,KILL,residual kill z reached,,PFE,{}
+residual_grid:PFE/XLV,2026-08-26 11:45:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-28 11:45:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,PFE,{}
+residual_grid:PFE/XLV,2026-08-28 11:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-08-28 14:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,69.3785,PFE,{}
+residual_grid:PFE/XLV,2026-08-31 10:30:00-04:00,residual_grid,CANDIDATE,ARMED,entry zone and candidate score confirmed,81.0097,PFE,{}
+residual_grid:PFE/XLV,2026-08-31 10:45:00-04:00,residual_grid,ARMED,GRID_ACTIVE,first residual grid layer queued,80.1243,PFE,{}
+residual_grid:PFE/XLV,2026-08-31 15:30:00-04:00,residual_grid,GRID_ACTIVE,KILL,campaign maximum adverse excursion stop,,PFE,{}
+residual_grid:PFE/XLV,2026-08-31 15:45:00-04:00,residual_grid,KILL,COOLDOWN,kill orders completed,,PFE,{}
+residual_grid:PFE/XLV,2026-09-02 15:45:00-04:00,residual_grid,COOLDOWN,FLAT,cooldown completed,,PFE,{}
+residual_grid:PFE/XLV,2026-09-02 15:45:00-04:00,residual_grid,FLAT,SCAN,resume scanning,,PFE,{}
+residual_grid:PFE/XLV,2026-09-03 13:15:00-04:00,residual_grid,SCAN,CANDIDATE,relationship and safety gates passed,55.3158,PFE,{}
+stock_pair_grid:VZ/T,2026-06-22 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-22 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-23 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-26 13:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 11:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 11:45:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 12:00:00-04:00,stock_pair_grid,ARMED,SCAN,pair setup expired,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 12:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 12:45:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 13:00:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-29 15:45:00-04:00,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 09:45:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 09:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 10:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 10:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 10:30:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 10:45:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 11:00:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 11:15:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 11:15:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 11:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 11:30:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 11:45:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 12:00:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 12:15:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 12:30:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 12:45:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 12:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 12:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 13:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 13:15:00-04:00,stock_pair_grid,ARMED,SCAN,pair setup expired,,VZ,{}
+stock_pair_grid:VZ/T,2026-06-30 13:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-02 10:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-02 12:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-08 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-29 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-29 15:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-30 11:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-30 11:15:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-30 11:30:00-04:00,stock_pair_grid,ARMED,SCAN,pair setup expired,,VZ,{}
+stock_pair_grid:VZ/T,2026-07-30 11:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-07 13:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-10 10:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-10 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-11 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-12 13:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-17 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-17 13:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-17 14:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-17 15:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-18 11:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-21 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-24 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-24 10:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-24 14:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-25 12:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-26 11:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-28 10:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-28 11:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-28 11:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-08-28 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:VZ/T,2026-09-03 15:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,VZ,{}
+stock_pair_grid:VZ/T,2026-09-04 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,VZ,{}
+stock_pair_grid:KO/PEP,2026-07-16 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2026-07-17 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,KO,{}
+stock_pair_grid:KO/PEP,2026-07-31 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2026-07-31 10:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-19 10:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-19 10:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-25 13:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-26 11:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-26 12:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-26 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,KO,{}
+stock_pair_grid:KO/PEP,2026-08-28 14:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,KO,{}
+stock_pair_grid:KO/PEP,2026-09-01 15:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,KO,{}
+stock_pair_grid:XOM/CVX,2026-06-23 10:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-06-29 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-06-29 12:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-06-30 10:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-06-30 11:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-06-30 14:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-08 12:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-08 13:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-08 13:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 10:00:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 10:15:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 11:15:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 11:30:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 11:30:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 11:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-09 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-14 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-17 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-17 10:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-21 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-22 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-22 11:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-23 14:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-07-24 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-06 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-12 15:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-24 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-28 10:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-28 11:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-28 11:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-28 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-08-28 15:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-09-02 13:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-09-02 13:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-09-02 14:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,XOM,{}
+stock_pair_grid:XOM/CVX,2026-09-03 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,XOM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 10:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 10:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 10:30:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 10:45:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 11:00:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 11:15:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 11:15:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 11:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 11:30:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 11:45:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 14:45:00-04:00,stock_pair_grid,GRID_ACTIVE,KILL,pair relationship invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-22 15:00:00-04:00,stock_pair_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-24 15:00:00-04:00,stock_pair_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-24 15:00:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-25 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-26 14:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-26 14:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-29 09:45:00-04:00,stock_pair_grid,GRID_ACTIVE,KILL,pair relationship invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-06-29 10:00:00-04:00,stock_pair_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-01 10:00:00-04:00,stock_pair_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-01 10:00:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-23 13:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-23 14:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-28 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-28 13:15:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-28 13:30:00-04:00,stock_pair_grid,ARMED,SCAN,pair setup expired,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-28 13:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 10:15:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 10:30:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 10:45:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 11:00:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 11:30:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 11:45:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 11:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 11:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 12:15:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 12:30:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 15:15:00-04:00,stock_pair_grid,GRID_ACTIVE,KILL,pair relationship invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-29 15:30:00-04:00,stock_pair_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-31 15:30:00-04:00,stock_pair_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-31 15:30:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-07-31 15:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-03 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-03 13:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-03 13:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-05 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-05 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-05 12:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-05 13:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-05 13:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-10 10:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-10 11:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-10 12:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-13 14:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-14 13:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-17 11:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-17 13:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-20 10:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-21 09:45:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-21 10:00:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-24 09:45:00-04:00,stock_pair_grid,GRID_ACTIVE,KILL,pair kill z reached,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-24 10:00:00-04:00,stock_pair_grid,KILL,COOLDOWN,kill orders completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-26 10:00:00-04:00,stock_pair_grid,COOLDOWN,FLAT,cooldown completed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-26 10:00:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-26 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-26 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-27 10:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-28 10:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-28 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-08-31 12:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-09-01 12:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,JPM,{}
+stock_pair_grid:JPM/BAC,2026-09-01 14:15:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,JPM,{}
+stock_pair_grid:MA/V,2026-06-22 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-06-24 09:45:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-06-24 10:00:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-06-24 10:30:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,MA,{}
+stock_pair_grid:MA/V,2026-06-24 10:45:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,MA,{}
+stock_pair_grid:MA/V,2026-06-24 11:30:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,MA,{}
+stock_pair_grid:MA/V,2026-06-24 11:45:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-06-24 11:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-06-25 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-06-29 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-06-29 11:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 10:15:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 10:30:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 11:15:00-04:00,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 11:30:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 11:30:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 11:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 11:45:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 12:00:00-04:00,stock_pair_grid,ARMED,SCAN,pair setup expired,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 12:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 13:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 13:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 13:45:00-04:00,stock_pair_grid,GRID_ACTIVE,KILL,pair relationship invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-07-01 14:00:00-04:00,stock_pair_grid,KILL,COOLDOWN,kill orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-07-06 09:45:00-04:00,stock_pair_grid,COOLDOWN,FLAT,cooldown completed,,MA,{}
+stock_pair_grid:MA/V,2026-07-06 09:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-07-06 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-07 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-07-15 11:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-15 13:30:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-07-15 13:45:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-07-16 10:00:00-04:00,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,MA,{}
+stock_pair_grid:MA/V,2026-07-16 10:15:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-07-16 10:15:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-07-16 10:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-17 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-07-17 10:30:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-07-21 09:45:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-08-14 09:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-18 10:00:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-08-18 11:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-18 12:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-08-18 12:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 10:00:00-04:00,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 10:15:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 10:15:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 10:15:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 10:45:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 11:00:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 12:00:00-04:00,stock_pair_grid,GRID_ACTIVE,BREAKOUT_SETUP,persistent pair breakout confirmed,80.0,MA,{}
+stock_pair_grid:MA/V,2026-08-19 12:15:00-04:00,stock_pair_grid,BREAKOUT_SETUP,BREAKOUT_ACTIVE,pair breakout continuation entered,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 12:30:00-04:00,stock_pair_grid,BREAKOUT_ACTIVE,GRID_EXITING,pair breakout exit,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 12:45:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 12:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 12:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 13:00:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-08-19 13:15:00-04:00,stock_pair_grid,ARMED,GRID_ACTIVE,pair layer 1 queued,,MA,{}
+stock_pair_grid:MA/V,2026-08-20 12:30:00-04:00,stock_pair_grid,GRID_ACTIVE,GRID_EXITING,pair mean reversion completed,,MA,{}
+stock_pair_grid:MA/V,2026-08-20 12:45:00-04:00,stock_pair_grid,GRID_EXITING,FLAT,exit orders completed,,MA,{}
+stock_pair_grid:MA/V,2026-08-20 12:45:00-04:00,stock_pair_grid,FLAT,SCAN,resume scanning,,MA,{}
+stock_pair_grid:MA/V,2026-08-20 12:45:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-25 11:30:00-04:00,stock_pair_grid,CANDIDATE,ARMED,pair z opportunity armed,,MA,{}
+stock_pair_grid:MA/V,2026-08-25 11:45:00-04:00,stock_pair_grid,ARMED,SCAN,pair setup expired,,MA,{}
+stock_pair_grid:MA/V,2026-08-25 12:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-26 12:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-08-27 10:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+stock_pair_grid:MA/V,2026-08-27 15:30:00-04:00,stock_pair_grid,CANDIDATE,SCAN,pair candidate invalidated,,MA,{}
+stock_pair_grid:MA/V,2026-08-28 15:00:00-04:00,stock_pair_grid,SCAN,CANDIDATE,pair relationship gates passed,,MA,{}
+natural_long_grid:CSCO,2026-06-15 13:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-16 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-06-18 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-18 14:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-06-22 10:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-22 14:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-06-23 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-23 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-06-23 12:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-24 14:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-06-25 15:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-26 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-06-29 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-06-29 12:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-01 15:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-01 15:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-01 15:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-02 10:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-08 11:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-08 12:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-13 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-14 13:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-27 10:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-28 11:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-28 12:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-28 12:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-07-28 13:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 13:15:00-04:00,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 13:30:00-04:00,natural_long_grid,ARMED,SCAN,natural grid setup expired,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 13:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 14:00:00-04:00,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 14:15:00-04:00,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 15:15:00-04:00,natural_long_grid,GRID_ACTIVE,KILL,natural grid invalidation,,CSCO,{}
+natural_long_grid:CSCO,2026-07-29 15:30:00-04:00,natural_long_grid,KILL,COOLDOWN,kill orders completed,,CSCO,{}
+natural_long_grid:CSCO,2026-07-31 15:30:00-04:00,natural_long_grid,COOLDOWN,FLAT,cooldown completed,,CSCO,{}
+natural_long_grid:CSCO,2026-07-31 15:30:00-04:00,natural_long_grid,FLAT,SCAN,resume scanning,,CSCO,{}
+natural_long_grid:CSCO,2026-08-03 10:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-08-04 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-08-17 13:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-08-17 15:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-08-18 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-08-18 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:CSCO,2026-08-19 10:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,CSCO,{}
+natural_long_grid:CSCO,2026-08-20 14:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,CSCO,{}
+natural_long_grid:VZ,2026-07-01 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,VZ,{}
+natural_long_grid:VZ,2026-07-01 12:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,VZ,{}
+natural_long_grid:VZ,2026-07-02 13:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,VZ,{}
+natural_long_grid:VZ,2026-07-02 13:45:00-04:00,natural_long_grid,CANDIDATE,ARMED,price entered lower 35% of range,,VZ,{}
+natural_long_grid:VZ,2026-07-02 14:00:00-04:00,natural_long_grid,ARMED,GRID_ACTIVE,natural grid layer 1 queued,,VZ,{}
+natural_long_grid:VZ,2026-07-10 14:45:00-04:00,natural_long_grid,GRID_ACTIVE,GRID_EXITING,natural grid target completed,,VZ,{}
+natural_long_grid:VZ,2026-07-10 15:00:00-04:00,natural_long_grid,GRID_EXITING,FLAT,exit orders completed,,VZ,{}
+natural_long_grid:VZ,2026-07-10 15:00:00-04:00,natural_long_grid,FLAT,SCAN,resume scanning,,VZ,{}
+natural_long_grid:T,2026-06-22 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,T,{}
+natural_long_grid:T,2026-06-22 13:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,T,{}
+natural_long_grid:T,2026-06-22 14:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,T,{}
+natural_long_grid:T,2026-06-23 11:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,T,{}
+natural_long_grid:T,2026-06-30 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,T,{}
+natural_long_grid:T,2026-06-30 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,T,{}
+natural_long_grid:T,2026-07-06 10:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,T,{}
+natural_long_grid:T,2026-07-06 14:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,T,{}
+natural_long_grid:T,2026-07-07 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,T,{}
+natural_long_grid:T,2026-07-07 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,T,{}
+natural_long_grid:KO,2026-07-01 14:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,KO,{}
+natural_long_grid:KO,2026-07-02 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,KO,{}
+natural_long_grid:XOM,2026-06-17 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-06-17 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-06-25 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-06-25 12:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-06-29 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-07-02 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-07-02 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-07-07 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-07-09 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-07-09 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-07-20 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-07-20 15:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-07-21 10:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-07-21 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-08-05 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-08-05 11:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-08-05 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-08-05 13:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-08-06 11:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-08-06 13:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-08-07 12:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-08-10 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-08-12 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-08-14 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-08-20 14:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-08-21 11:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:XOM,2026-09-03 13:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,XOM,{}
+natural_long_grid:XOM,2026-09-04 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,XOM,{}
+natural_long_grid:JPM,2026-06-24 10:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-06-24 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-06-24 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-06-25 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-02 10:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-02 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-02 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-06 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-17 11:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-17 15:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-20 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-20 11:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-20 11:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-20 13:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-23 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-24 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-27 13:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-27 13:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-07-28 10:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-07-29 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-03 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-04 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-06 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-06 13:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-14 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-18 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-18 14:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-19 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-19 10:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-19 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-21 15:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-24 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-08-26 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-08-28 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-09-01 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-09-02 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-09-03 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-09-03 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:JPM,2026-09-04 14:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,JPM,{}
+natural_long_grid:JPM,2026-09-04 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,JPM,{}
+natural_long_grid:BAC,2026-06-23 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-06-23 10:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-06-26 14:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-06-26 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-06-29 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-06-29 12:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-17 10:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-20 10:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-21 10:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-21 12:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-21 15:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-22 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-23 13:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-24 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-28 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-29 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-29 13:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-29 15:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-07-30 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-07-30 14:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-08-17 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-08-17 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-08-24 13:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-08-25 14:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-09-01 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-09-02 10:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-09-02 13:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:BAC,2026-09-02 15:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,BAC,{}
+natural_long_grid:BAC,2026-09-04 12:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,BAC,{}
+natural_long_grid:MA,2026-06-15 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-06-16 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-06-26 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-06-26 15:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-06-26 15:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-06-29 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-07-06 14:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-07-06 15:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-07-07 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-07-07 10:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-07-07 11:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-07-07 14:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-07-07 14:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-07-07 14:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-07-15 13:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-07-16 11:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-08-04 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-08-04 13:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-08-05 10:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-08-05 11:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:MA,2026-08-07 10:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,MA,{}
+natural_long_grid:MA,2026-08-07 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,MA,{}
+natural_long_grid:V,2026-06-16 10:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-16 11:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-18 13:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-18 13:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-22 10:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-22 11:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-22 11:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-23 11:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-23 11:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-24 11:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-24 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-25 10:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-26 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-26 15:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-26 15:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-29 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-06-29 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-06-29 11:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-01 10:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-01 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-06 14:00:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-06 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-07 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-07 10:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-09 12:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-09 13:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-09 13:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-10 15:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-15 11:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-16 14:00:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-17 14:15:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-21 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-07-31 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-07-31 12:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-08-03 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-08-03 13:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-08-04 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-08-04 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-08-05 09:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-08-05 14:15:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-08-06 12:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-08-07 10:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-08-21 13:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-08-24 09:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-08-26 12:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-08-26 13:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:V,2026-09-03 10:30:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,V,{}
+natural_long_grid:V,2026-09-03 14:30:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,V,{}
+natural_long_grid:PFE,2026-06-24 10:45:00-04:00,natural_long_grid,SCAN,CANDIDATE,tradable range detected,,PFE,{}
+natural_long_grid:PFE,2026-06-24 11:45:00-04:00,natural_long_grid,CANDIDATE,SCAN,range candidate invalidated,,PFE,{}

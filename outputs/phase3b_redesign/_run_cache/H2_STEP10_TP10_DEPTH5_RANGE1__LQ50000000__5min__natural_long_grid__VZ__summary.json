@@ -1,0 +1,86 @@
+{
+  "campaigns": 3,
+  "family": "natural_long_grid",
+  "fills": 7,
+  "hypothesis": "H2",
+  "job_id": "H2_STEP10_TP10_DEPTH5_RANGE1__LQ50000000__5min__natural_long_grid__VZ",
+  "metrics": {
+    "annualized_return": -0.0011699195860030986,
+    "average_mae_usd": -224.9394602603364,
+    "average_mfe_usd": 30.396608406951902,
+    "best_5_trade_legs_usd": [
+      77.5023296588115,
+      66.55474753937597,
+      -728.525969909002
+    ],
+    "best_mfe_r": 0.08546383020894063,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 3,
+    "cost_drag_usd": 36.57163917638841,
+    "ending_equity": 99415.5311072892,
+    "expectancy_r": -0.19482296423693818,
+    "expectancy_usd": -194.8229642369382,
+    "exposure_pct": 0.001589825119236884,
+    "fill_count": 7,
+    "financing_cost_usd": 0.0,
+    "kill_count": 1,
+    "max_drawdown": -0.0072852596990899965,
+    "max_gross_leverage_used": 0.509020797212786,
+    "max_net_beta_exposure": 1.3529265230788654,
+    "mean_holding_hours": 1.25,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 1.5833333333333333,
+    "number_of_trades": 3,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 72.02853859909374,
+        "pnl_usd": 144.05707719818747,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": -728.525969909002,
+        "pnl_usd": -728.525969909002,
+        "trades": 1,
+        "win_rate": 0.0
+      }
+    },
+    "profit_factor": 0.1977377377723147,
+    "sharpe": -0.3515988426874908,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.005679330731226062,
+      "1.0x": -0.005844688927108099,
+      "2.0x": -0.0061754053188719515
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.5379973769160065,
+    "top_week_profit_share": 1.0,
+    "total_return": -0.005844688927108099,
+    "turnover": 1.8211807887893157,
+    "win_rate": 0.6666666666666666,
+    "worst_5_trade_legs_usd": [
+      -728.525969909002,
+      66.55474753937597,
+      77.5023296588115
+    ],
+    "worst_mae_r": -0.728525969909002
+  },
+  "pair": "VZ",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H2_STEP10_TP10_DEPTH5_RANGE1",
+  "warnings": []
+}

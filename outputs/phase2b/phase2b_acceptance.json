@@ -1,0 +1,4738 @@
+{
+  "residual_grid:CSCO/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:CSCO/QQQ": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:IBM/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:ORCL/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:HPQ/XLK": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:HPE/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:MSFT/XLK": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:AAPL/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:NVDA/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:ACN/XLK": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:VZ/XLC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:T/XLC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:TMUS/XLC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:META/XLC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:GOOGL/XLC": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:MO/XLP": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:KO/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:PEP/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:KHC/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:MDLZ/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:PG/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:CL/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:WMT/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:COST/XLP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:JPM/XLF": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": true,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:BAC/XLF": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:WFC/XLF": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:C/XLF": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:GS/XLF": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:MS/XLF": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:MA/XLF": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:V/XLF": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:AXP/XLF": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:XOM/XLE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:CVX/XLE": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:COP/XLE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:SLB/XLE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:EOG/XLE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:PFE/XLV": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:MRK/XLV": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:BMY/XLV": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:ABBV/XLV": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:JNJ/XLV": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:UNH/XLV": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:LLY/XLV": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:MDT/XLV": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:CAT/XLI": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:HON/XLI": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:UNP/XLI": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:GE/XLI": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:RTX/XLI": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:DE/XLI": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:NEE/XLU": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:DUK/XLU": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:SO/XLU": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:AEP/XLU": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:AMZN/XLY": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:HD/XLY": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:MCD/XLY": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:NKE/XLY": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:LOW/XLY": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:SBUX/XLY": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:LIN/XLB": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:APD/XLB": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:SHW/XLB": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:FCX/XLB": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:NEM/XLB": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "residual_grid:PLD/XLRE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:AMT/XLRE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "residual_grid:EQIX/XLRE": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:SPG/XLRE": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "residual_grid:O/XLRE": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "stock_pair_grid:JPM/BAC": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "stock_pair_grid:JPM/WFC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:JPM/C": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:JPM/GS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "stock_pair_grid:JPM/MS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "stock_pair_grid:BAC/WFC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:BAC/C": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:BAC/GS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "stock_pair_grid:BAC/MS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "stock_pair_grid:WFC/C": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:WFC/GS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "stock_pair_grid:WFC/MS": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:C/GS": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:C/MS": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:GS/MS": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:MA/V": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration"
+    ]
+  },
+  "stock_pair_grid:VZ/T": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "stock_pair_grid:KO/PEP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:KO/MDLZ": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:KO/CL": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:PEP/PG": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:PG/CL": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:XOM/CVX": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:XOM/COP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:CVX/COP": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "stock_pair_grid:HPQ/HPE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:CSCO": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:IBM": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:ORCL": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:HPQ": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:HPE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:MSFT": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:AAPL": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:NVDA": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:ACN": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:VZ": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:T": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:TMUS": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:META": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:GOOGL": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:MO": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:KO": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:PEP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:KHC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:MDLZ": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:PG": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:CL": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:WMT": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:COST": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival"
+    ]
+  },
+  "natural_long_grid:JPM": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:BAC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:WFC": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:C": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:GS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:MS": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:MA": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:V": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:AXP": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:XOM": {
+    "passed": true,
+    "underpowered": true,
+    "promotion_type": "UNDERPOWERED_RESEARCH_CANDIDATE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": true,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": true,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [
+      "density"
+    ],
+    "failed": []
+  },
+  "natural_long_grid:CVX": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:COP": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:SLB": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:EOG": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:PFE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:MRK": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:BMY": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:ABBV": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:JNJ": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:UNH": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:LLY": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:MDT": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:CAT": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:HON": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:UNP": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:GE": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:RTX": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:DE": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:NEE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:DUK": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:SO": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:AEP": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:AMZN": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:HD": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:MCD": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:NKE": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:LOW": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": true,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:SBUX": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:LIN": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:APD": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:SHW": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:FCX": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:NEM": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes"
+    ]
+  },
+  "natural_long_grid:PLD": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:AMT": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:EQIX": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:SPG": {
+    "passed": false,
+    "underpowered": false,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": false,
+      "positive_expectancy_after_costs": false,
+      "campaign_concentration": false,
+      "return_drawdown_balance": false,
+      "parameter_robustness": false,
+      "strict_cost_survival": false,
+      "multiple_positive_regimes": false,
+      "train_window_stability": false,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "profit_factor_after_costs",
+      "positive_expectancy_after_costs",
+      "campaign_concentration",
+      "return_drawdown_balance",
+      "parameter_robustness",
+      "strict_cost_survival",
+      "multiple_positive_regimes",
+      "train_window_stability"
+    ]
+  },
+  "natural_long_grid:O": {
+    "passed": false,
+    "underpowered": true,
+    "promotion_type": "NONE",
+    "checks": {
+      "density": false,
+      "profit_factor_after_costs": true,
+      "positive_expectancy_after_costs": true,
+      "campaign_concentration": false,
+      "return_drawdown_balance": true,
+      "parameter_robustness": true,
+      "strict_cost_survival": true,
+      "multiple_positive_regimes": false,
+      "train_window_stability": true,
+      "breakout_understood": true,
+      "no_lookahead_or_leakage": true
+    },
+    "waived": [],
+    "failed": [
+      "density",
+      "campaign_concentration",
+      "multiple_positive_regimes"
+    ]
+  }
+}

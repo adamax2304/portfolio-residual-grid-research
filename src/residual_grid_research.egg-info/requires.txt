@@ -1,0 +1,15 @@
+numpy>=1.26
+pandas>=2.1
+PyYAML>=6.0
+requests>=2.31
+yfinance>=0.2.65
+exchange-calendars<5,>=4.13
+
+[research]
+scipy>=1.11
+statsmodels>=0.14
+matplotlib>=3.8
+
+[test]
+pytest>=8.0
+pytest-cov>=5.0

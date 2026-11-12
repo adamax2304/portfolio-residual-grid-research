@@ -1,0 +1,90 @@
+{
+  "campaigns": 100,
+  "family": "stock_pair_grid",
+  "fills": 702,
+  "hypothesis": "LIQUIDITY_STRESS",
+  "job_id": "LQ_STRESS_10M_stock_pair_grid__LQ10000000__15min__stock_pair_grid__JPM_BAC",
+  "metrics": {
+    "annualized_return": -0.012879691813598049,
+    "average_mae_usd": -200.87242990965314,
+    "average_mfe_usd": 124.55270062718178,
+    "best_5_trade_legs_usd": [
+      830.1845764710663,
+      613.5582786574511,
+      569.6581693950096,
+      490.3485846792044,
+      483.64968051044264
+    ],
+    "best_mfe_r": 1.1886343377675221,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 356,
+    "cost_drag_usd": 9375.806045311985,
+    "ending_equity": 93714.77049222542,
+    "expectancy_r": -0.06285229507774387,
+    "expectancy_usd": -62.852295077743875,
+    "exposure_pct": 0.09785202863961814,
+    "fill_count": 702,
+    "financing_cost_usd": 270.02311880447104,
+    "kill_count": 77,
+    "max_drawdown": -0.06804653159016893,
+    "max_gross_leverage_used": 3.876011300830913,
+    "max_net_beta_exposure": 0.9429979329649882,
+    "mean_holding_hours": 10.3175,
+    "mean_reversion_success_rate": 0.6956521739130435,
+    "median_holding_hours": 1.5,
+    "number_of_trades": 100,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 106.16993596875739,
+        "pnl_usd": 2441.9085272814204,
+        "trades": 23,
+        "win_rate": 0.6956521739130435
+      },
+      "warning": {
+        "expectancy_usd": -113.33945500072478,
+        "pnl_usd": -8727.138035055808,
+        "trades": 77,
+        "win_rate": 0.36363636363636365
+      }
+    },
+    "profit_factor": 0.5807480431956257,
+    "sharpe": -0.5632665994755185,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.019078380445208154,
+      "1.0x": -0.06285229507774581,
+      "2.0x": -0.1504001243428209
+    },
+    "sortino": -0.1758886565723197,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.09535442749600197,
+    "top_week_profit_share": 0.11196709337891289,
+    "total_return": -0.06285229507774581,
+    "turnover": 256.1791392712962,
+    "win_rate": 0.44,
+    "worst_5_trade_legs_usd": [
+      -2650.9270349941066,
+      -1847.4830539313534,
+      -1514.3461343744002,
+      -1377.2696009200865,
+      -739.4557754659501
+    ],
+    "worst_mae_r": -2.6509270349941065
+  },
+  "pair": "JPM/BAC",
+  "threshold": 10000000.0,
+  "timeframe": "15min",
+  "variant": "LQ_STRESS_10M_stock_pair_grid",
+  "warnings": []
+}

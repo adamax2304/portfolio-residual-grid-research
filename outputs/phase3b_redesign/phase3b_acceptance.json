@@ -1,0 +1,31 @@
+{
+  "breakout_enabled_in_any_run": false,
+  "created_at_utc": "2026-09-19T23:10:50.209218+00:00",
+  "limitations": [
+    "HF bars are adjusted and post-2022 IEX-only",
+    "point-in-time events are unavailable",
+    "monthly OOS attribution carries open strategy state across boundaries",
+    "cost stress holds fills fixed and changes economics only"
+  ],
+  "live_promotion_permitted": false,
+  "minimum_campaigns": 30,
+  "oos_protocol": "six-month initial calibration/warm-up; frozen continuous state; one-month OOS attribution",
+  "phase": "3B",
+  "research_gate_passes": [],
+  "residual_optimization_performed": false,
+  "source_status": "HF_R_LITE_LIMITED",
+  "statuses": {
+    "BREAKOUT CONTINUATION STATUS": "ABANDON",
+    "CONDITIONAL EDGE FOUND": "NO",
+    "COST IMPACT": "EDGE_KILLING",
+    "GRID GEOMETRY STATUS": "MIXED",
+    "LIQUIDITY GATE FIX": "PASS",
+    "LIVE TRADING STATUS": "NO-GO",
+    "NATURAL LONG GRID STATUS": "REDESIGN_CONTINUE",
+    "NEXT PHASE RECOMMENDATION": "No Phase 3C promotion; retain NO-GO and acquire raw consolidated intraday plus point-in-time events before further redesign.",
+    "RESIDUAL GRID STATUS": "ABANDON",
+    "SIGNAL DENSITY IMPROVED": "YES",
+    "STOCK PAIRS STATUS": "ABANDON",
+    "STOP LOGIC STATUS": "MIXED"
+  }
+}

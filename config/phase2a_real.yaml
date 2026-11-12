@@ -1,0 +1,145 @@
+project:
+  name: residual_grid_phase2a_real
+  starting_capital_usd: 100000
+  timezone: America/New_York
+  seed: 42
+
+data:
+  provider: yahoo_finance
+  api_key_env: ALPHA_VANTAGE_API_KEY
+  daily_start: 2023-09-01
+  daily_end: 2026-09-06
+  daily_years: 3
+  intraday_period: 60d
+  intraday_interval: 15m
+  intraday_months: 2
+  adjusted: true
+  extended_hours: false
+  no_trade_window_minutes: 10
+  requests_per_minute: 70
+  cache_dir: data/real/raw/yahoo
+  event_path: data/real/events/historical_events.csv
+
+universe:
+  stock_etf_map:
+    CSCO: [XLK, QQQ]
+    VZ: [XLC]
+    MO: [XLP]
+    XOM: [XLE]
+    JPM: [XLF]
+    PFE: [XLV]
+  stock_pairs:
+    - [VZ, T]
+    - [KO, PEP]
+    - [XOM, CVX]
+    - [JPM, BAC]
+    - [MA, V]
+  natural_long_symbols: [CSCO, VZ, T, MO, KO, PEP, XOM, CVX, JPM, BAC, MA, V, PFE]
+  blind_expansion_pairs: []
+  benchmarks: [SPY, QQQ]
+  min_price: 5
+  min_average_daily_dollar_volume: 50000000
+
+features:
+  correlation_windows: [30, 60, 90, 120]
+  beta_window: 60
+  z_window: 90
+  stock_etf_corr_min: 0.65
+  stock_etf_short_corr_min: 0.70
+  stock_pair_corr_min: 0.75
+  stock_pair_corr_90_min: 0.65
+  correlation_kill: 0.55
+  beta_stability_max: 0.35
+  zone_width_atr: 0.5
+  adx_period: 14
+  range_adx_max: 23
+  range_width_atr_min: 3.0
+  range_width_atr_max: 10.0
+  atr_expansion_max: 1.4
+  market_adx_max: 25
+  market_atr_expansion_max: 1.5
+  candidate_score_min: 70
+
+strategy:
+  residual:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+    allow_short_stock: true
+    hedge_with_etf: true
+  pairs:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+  natural:
+    lower_range_fraction: 0.35
+    grid_step_atr: 0.55
+    hard_stop_atr: 0.6
+    atr_kill_multiple: 1.5
+    pivot_window: 5
+    range_lookback: 60
+    max_holding_days: 20
+    grid_level_count: 4
+  breakout:
+    enabled: true
+    minimum_score: 70
+    volume_ratio: 1.5
+    confirmation_closes: 2
+    confirmation_mode: closes
+    atr_buffer: 0.2
+    failed_breakout_bars: 3
+
+risk:
+  max_risk_per_trade_pct: 0.01
+  max_daily_loss_pct: 0.025
+  max_weekly_loss_pct: 0.06
+  max_gross_leverage: 6.0
+  max_effective_leverage_start: 2.0
+  max_open_positions: 4
+  max_kills_per_symbol_per_month: 4
+  cooldown_days: 2
+  max_campaign_mae_r: 1.0
+  layer_weights: [0.20, 0.25, 0.25, 0.30]
+
+costs:
+  commission_per_fill_usd: 0.50
+  spread_bps: 2.0
+  slippage_bps: 3.0
+  short_borrow_annual_pct: 0.03
+  overnight_holding_annual_pct: 0.0
+  minimum_order_usd: 50
+  partial_fill_ratio: 1.0
+  costs_safety_multiple: 3.0
+
+events:
+  earnings_before_trading_days: 5
+  earnings_after_trading_days: 2
+  ex_dividend_short_buffer_days: 2
+
+walk_forward:
+  train_months: 6
+  test_months: 1
+  variants: [[3, 1], [12, 1]]
+
+sensitivity:
+  z_entry: [1.2, 1.5, 1.8, 2.0]
+  z_exit: [0.8, 0.5, 0.2, 0.0]
+  z_kill: [2.5, 3.0, 3.5]
+  beta_window: [60, 90, 120]
+  correlation_threshold: [0.60, 0.70, 0.80]
+  grid_levels: [3, 4, 5]
+  atr_stop_multiplier: [0.4, 0.6, 0.8]
+  breakout_confirmation: [one_close, two_closes, retest]
+
+acceptance:
+  minimum_trades: 20
+  minimum_profit_factor: 1.15
+  maximum_drawdown_pct: 0.15
+  maximum_profit_concentration: 0.50
+  minimum_nearby_parameter_pass_rate: 0.60

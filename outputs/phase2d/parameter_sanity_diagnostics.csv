@@ -1,0 +1,17 @@
+strategy_family,dimension,values,purpose,status
+natural,grid_levels,"[3, 5, 7, 9]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+natural,grid_step_atr,"[0.4, 0.6, 0.8, 1.0, 1.2]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+natural,tp,"[""0.5_step"", ""1.0_step"", ""1.5_step"", ""midpoint""]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+natural,stop,"[""current"", ""range_low_0.5_atr"", ""range_low_1.0_atr"", ""last_grid_0.5_atr"", ""structure_close""]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+natural,max_depth,"[2, 3, 4, 5]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+residual,z_entry,"[1.2, 1.5, 1.8, 2.0]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+residual,z_exit,"[0.8, 0.5, 0.2, 0.0]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+residual,z_kill,"[2.5, 3.0, 3.5]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+residual,beta_window,"[60, 90, 120]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+residual,hedge,"[""beta_neutral"", ""dollar_neutral""]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+pairs,z_entry,"[1.2, 1.5, 1.8, 2.0]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+pairs,z_exit,"[0.8, 0.5, 0.2, 0.0]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+pairs,z_kill,"[2.5, 3.0, 3.5]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+pairs,beta_window,"[60, 90, 120]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+pairs,correlation_threshold,"[0.65, 0.75, 0.85]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA
+pairs,stationarity_proxy,"[true, false]",mechanical_sanity_not_selection,NOT_RUN_NO_DATA

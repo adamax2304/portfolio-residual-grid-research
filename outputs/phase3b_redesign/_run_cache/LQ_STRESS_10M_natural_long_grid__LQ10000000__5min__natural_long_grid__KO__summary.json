@@ -1,0 +1,78 @@
+{
+  "campaigns": 0,
+  "family": "natural_long_grid",
+  "fills": 0,
+  "hypothesis": "LIQUIDITY_STRESS",
+  "job_id": "LQ_STRESS_10M_natural_long_grid__LQ10000000__5min__natural_long_grid__KO",
+  "metrics": {
+    "annualized_return": 0.0,
+    "average_mae_usd": 0.0,
+    "average_mfe_usd": 0.0,
+    "best_5_trade_legs_usd": [],
+    "best_mfe_r": 0.0,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 0,
+    "cost_drag_usd": 0.0,
+    "ending_equity": 100000.0,
+    "expectancy_r": 0.0,
+    "expectancy_usd": 0.0,
+    "exposure_pct": 0.0,
+    "fill_count": 0,
+    "financing_cost_usd": 0.0,
+    "kill_count": 0,
+    "max_drawdown": 0.0,
+    "max_gross_leverage_used": 0.0,
+    "max_net_beta_exposure": 0.0,
+    "mean_holding_hours": 0.0,
+    "mean_reversion_success_rate": null,
+    "median_holding_hours": 0.0,
+    "number_of_trades": 0,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "warning": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      }
+    },
+    "profit_factor": 0.0,
+    "sharpe": 0.0,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.0,
+      "1.0x": 0.0,
+      "2.0x": 0.0
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": null,
+    "top_week_profit_share": null,
+    "total_return": 0.0,
+    "turnover": 0.0,
+    "win_rate": 0.0,
+    "worst_5_trade_legs_usd": [],
+    "worst_mae_r": 0.0
+  },
+  "pair": "KO",
+  "threshold": 10000000.0,
+  "timeframe": "5min",
+  "variant": "LQ_STRESS_10M_natural_long_grid",
+  "warnings": []
+}

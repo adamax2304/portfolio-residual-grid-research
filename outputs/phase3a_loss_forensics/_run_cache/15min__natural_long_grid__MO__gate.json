@@ -1,0 +1,21 @@
+{
+  "after_cost_tp_filter": 0,
+  "after_data_session_filters": 31246,
+  "after_grid_geometry_validation": 0,
+  "after_market_regime_filter": 8831,
+  "after_range_filter": 15245,
+  "after_support_proximity": 0,
+  "after_trend_filter": 9310,
+  "after_volatility_filter": 9048,
+  "after_volume_filter": 0,
+  "cooldown_rejections": 0,
+  "dominant_gate": "range",
+  "event_data_status": "UNAVAILABLE_IN_HF_R_LITE",
+  "event_filter_failed": null,
+  "final_armed_signals": 0,
+  "final_campaigns": 0,
+  "strategy_family": "natural_long_grid",
+  "symbol": "MO",
+  "timeframe": "15min",
+  "total_candles": 31306
+}

@@ -1,0 +1,2 @@
+dataset,test,interval,signal_time,execution_time,raw_execution,next_bar,touch_required,adverse_first,gap_conservative,result
+DETERMINISTIC_SYNTHETIC_ONLY,phase2c_and_phase2d_execution_suite,5min/15min,,,True,True,True,True,True,PASS

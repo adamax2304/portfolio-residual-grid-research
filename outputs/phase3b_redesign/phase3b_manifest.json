@@ -1,0 +1,29 @@
+{
+  "breakout_enabled": false,
+  "campaigns": 15315,
+  "created_at_utc": "2026-09-19T23:10:50.913406+00:00",
+  "frozen_baseline_verified": true,
+  "live_trading_status": "NO-GO",
+  "phase": "3B",
+  "previous_artifacts_changed": [],
+  "previous_artifacts_checked": 417,
+  "residual_optimized": false,
+  "residual_runs": 22,
+  "runs": 484,
+  "source_status": "HF_R_LITE_LIMITED",
+  "status": {
+    "BREAKOUT CONTINUATION STATUS": "ABANDON",
+    "CONDITIONAL EDGE FOUND": "NO",
+    "COST IMPACT": "EDGE_KILLING",
+    "GRID GEOMETRY STATUS": "MIXED",
+    "LIQUIDITY GATE FIX": "PASS",
+    "LIVE TRADING STATUS": "NO-GO",
+    "NATURAL LONG GRID STATUS": "REDESIGN_CONTINUE",
+    "NEXT PHASE RECOMMENDATION": "No Phase 3C promotion; retain NO-GO and acquire raw consolidated intraday plus point-in-time events before further redesign.",
+    "RESIDUAL GRID STATUS": "ABANDON",
+    "SIGNAL DENSITY IMPROVED": "YES",
+    "STOCK PAIRS STATUS": "ABANDON",
+    "STOP LOGIC STATUS": "MIXED"
+  },
+  "workers": 14
+}

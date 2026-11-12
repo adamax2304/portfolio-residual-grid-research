@@ -1,0 +1,90 @@
+{
+  "campaigns": 250,
+  "family": "residual_grid",
+  "fills": 1890,
+  "hypothesis": "H7",
+  "job_id": "H7_RESIDUAL_CONFIRMATION__LQ50000000__5min__residual_grid__JPM_XLF",
+  "metrics": {
+    "annualized_return": -0.033243461105952,
+    "average_mae_usd": -146.45009914566472,
+    "average_mfe_usd": 64.20400374521604,
+    "best_5_trade_legs_usd": [
+      1805.8397474206492,
+      912.4767252654733,
+      877.7520486848182,
+      605.8636209532449,
+      587.7328436943366
+    ],
+    "best_mfe_r": 1.939347210287975,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 925,
+    "cost_drag_usd": 25251.95481276318,
+    "ending_equity": 84425.77234140912,
+    "expectancy_r": -0.06229691063436301,
+    "expectancy_usd": -62.29691063436301,
+    "exposure_pct": 0.21701112877583467,
+    "fill_count": 1890,
+    "financing_cost_usd": 336.05932234779266,
+    "kill_count": 172,
+    "max_drawdown": -0.17355639961715275,
+    "max_gross_leverage_used": 4.4957360356482505,
+    "max_net_beta_exposure": 2.227408392971111,
+    "mean_holding_hours": 5.513333333333334,
+    "mean_reversion_success_rate": 0.7051282051282052,
+    "median_holding_hours": 0.6666666666666666,
+    "number_of_trades": 250,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 45.9392574602957,
+        "pnl_usd": 3583.2620819030644,
+        "trades": 78,
+        "win_rate": 0.7051282051282052
+      },
+      "warning": {
+        "expectancy_usd": -111.3807543051966,
+        "pnl_usd": -19157.489740493816,
+        "trades": 172,
+        "win_rate": 0.14534883720930233
+      }
+    },
+    "profit_factor": 0.46540284815331234,
+    "sharpe": -1.7264282763411647,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.03588779913383189,
+      "1.0x": -0.1557422765859089,
+      "2.0x": -0.39545123149006267
+    },
+    "sortino": -1.2355578198842136,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.13318959335744945,
+    "top_week_profit_share": 0.1571581258953358,
+    "total_return": -0.1557422765859089,
+    "turnover": 832.2701136804009,
+    "win_rate": 0.32,
+    "worst_5_trade_legs_usd": [
+      -1113.353411084751,
+      -918.3266795762653,
+      -703.1399922490087,
+      -671.2476924141711,
+      -634.8644767858
+    ],
+    "worst_mae_r": -1.1133534110847512
+  },
+  "pair": "JPM/XLF",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H7_RESIDUAL_CONFIRMATION",
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "campaigns": 1,
+  "family": "natural_long_grid",
+  "fills": 5,
+  "hypothesis": "LIQUIDITY_STRESS",
+  "job_id": "LQ_STRESS_25M_natural_long_grid__LQ25000000__5min__natural_long_grid__VZ",
+  "metrics": {
+    "annualized_return": 0.0009137420748506209,
+    "average_mae_usd": -61.87083703729513,
+    "average_mfe_usd": 462.01711624911695,
+    "best_5_trade_legs_usd": [
+      458.3975255381156
+    ],
+    "best_mfe_r": 0.46201711624911695,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 3,
+    "cost_drag_usd": 15.634035261058585,
+    "ending_equity": 100458.39752553811,
+    "expectancy_r": 0.4583975255381156,
+    "expectancy_usd": 458.3975255381156,
+    "exposure_pct": 0.001589825119236884,
+    "fill_count": 5,
+    "financing_cost_usd": 0.0,
+    "kill_count": 0,
+    "max_drawdown": -0.001602297015251275,
+    "max_gross_leverage_used": 0.32591481230074515,
+    "max_net_beta_exposure": 0.20478159968004378,
+    "mean_holding_hours": 21.916666666666668,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 21.916666666666668,
+    "number_of_trades": 1,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 458.3975255381156,
+        "pnl_usd": 458.3975255381156,
+        "trades": 1,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      }
+    },
+    "profit_factor": Infinity,
+    "sharpe": 0.6097675125052602,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.004649645431686444,
+      "1.0x": 0.004583975255381123,
+      "2.0x": 0.00445263490277048
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 1.0,
+    "top_week_profit_share": 1.0,
+    "total_return": 0.004583975255381123,
+    "turnover": 0.6518301070923547,
+    "win_rate": 1.0,
+    "worst_5_trade_legs_usd": [
+      458.3975255381156
+    ],
+    "worst_mae_r": -0.06187083703729513
+  },
+  "pair": "VZ",
+  "threshold": 25000000.0,
+  "timeframe": "5min",
+  "variant": "LQ_STRESS_25M_natural_long_grid",
+  "warnings": []
+}

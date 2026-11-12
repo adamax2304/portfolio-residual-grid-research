@@ -1,0 +1,34 @@
+{
+  "phase": "3B",
+  "changes": [
+    {
+      "classification": "REPORTING_ONLY",
+      "description": "Normalize manual campaign replay bounds and the cached bar index to UTC so replays spanning daylight-saving-time offset changes render correctly; make final family and stop classifications reflect the already-frozen sufficient-sample results without changing any trading result.",
+      "module": "src/residual_grid_research/phase3b.py",
+      "before_sha256": "725322ab027c560e253130fdc6c96cdb805e9fdd28f3c8afac970ff64de62d14",
+      "after_sha256": "5b29fe800c09741f74526e8023f4bef1ff644a87b07fa6adc1c4484d6704a216",
+      "trading_results_affected": false,
+      "cached_backtests_restart_required": false,
+      "affected_outputs": [
+        "manual_replays/",
+        "manual_replay_index.md",
+        "phase3b_redesign_report.md",
+        "phase3b_acceptance.json"
+      ]
+    }
+  ],
+  "test_changes": [
+    {
+      "classification": "TEST_ONLY",
+      "description": "Add a regression test for UTC-normalized replay slicing across a daylight-saving-time boundary.",
+      "module": "tests/test_phase3b.py",
+      "trading_results_affected": false
+    },
+    {
+      "classification": "TEST_ONLY",
+      "description": "Add regression tests for sufficient-sample family abandonment and stop-comparison reporting classifications.",
+      "module": "tests/test_phase3b.py",
+      "trading_results_affected": false
+    }
+  ]
+}

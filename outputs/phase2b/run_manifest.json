@@ -1,0 +1,27 @@
+{
+  "phase2a_acceptance_preserved": "NO-GO",
+  "phase2b_live_decision": "NO-GO",
+  "expanded_runs": 169,
+  "screened_pairs": 62,
+  "selected_pairs": 26,
+  "signal_density_runs": 87,
+  "sweep_runs": 9,
+  "phase2c_candidates": 1,
+  "deliverables": [
+    "breakout_attribution.csv",
+    "candidate_deep_dive.md",
+    "edge_triage_report.md",
+    "event_proximity.csv",
+    "expanded_campaigns.csv",
+    "expanded_candidate_sensitivity.csv",
+    "expanded_fills.csv",
+    "expanded_universe_metrics.csv",
+    "pair_diagnostics.csv",
+    "phase2a_campaigns_enriched.csv",
+    "phase2a_edge_triage.csv",
+    "phase2b_acceptance.json",
+    "run_manifest.json",
+    "signal_density.csv",
+    "sweep_filter_results.csv"
+  ]
+}

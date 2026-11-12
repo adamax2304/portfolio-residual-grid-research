@@ -1,0 +1,82 @@
+{
+  "campaigns": 1,
+  "family": "natural_long_grid",
+  "fills": 4,
+  "hypothesis": "H3",
+  "job_id": "H3_CLOSE1__LQ50000000__15min__natural_long_grid__VZ",
+  "metrics": {
+    "annualized_return": 0.0003217741996677237,
+    "average_mae_usd": 12.38415014597922,
+    "average_mfe_usd": 240.16087403316396,
+    "best_5_trade_legs_usd": [
+      161.23328975964796
+    ],
+    "best_mfe_r": 0.24016087403316397,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 3,
+    "cost_drag_usd": 3.734358187885405,
+    "ending_equity": 100161.23328975966,
+    "expectancy_r": 0.16123328975964796,
+    "expectancy_usd": 161.23328975964796,
+    "exposure_pct": 0.00397456279809221,
+    "fill_count": 4,
+    "financing_cost_usd": 0.0,
+    "kill_count": 1,
+    "max_drawdown": -0.0008726843574952126,
+    "max_gross_leverage_used": 0.06434751139799853,
+    "max_net_beta_exposure": 0.14443393216702435,
+    "mean_holding_hours": 163.25,
+    "mean_reversion_success_rate": null,
+    "median_holding_hours": 163.25,
+    "number_of_trades": 1,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "warning": {
+        "expectancy_usd": 161.23328975964796,
+        "pnl_usd": 161.23328975964796,
+        "trades": 1,
+        "win_rate": 1.0
+      }
+    },
+    "profit_factor": Infinity,
+    "sharpe": 0.3781219261861794,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.0016210046885360985,
+      "1.0x": 0.0016123328975965467,
+      "2.0x": 0.0015949893157178874
+    },
+    "sortino": 0.09393016606502373,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 1.0,
+    "top_week_profit_share": 1.0,
+    "total_return": 0.0016123328975965467,
+    "turnover": 0.12730584920384394,
+    "win_rate": 1.0,
+    "worst_5_trade_legs_usd": [
+      161.23328975964796
+    ],
+    "worst_mae_r": 0.01238415014597922
+  },
+  "pair": "VZ",
+  "threshold": 50000000.0,
+  "timeframe": "15min",
+  "variant": "H3_CLOSE1",
+  "warnings": []
+}

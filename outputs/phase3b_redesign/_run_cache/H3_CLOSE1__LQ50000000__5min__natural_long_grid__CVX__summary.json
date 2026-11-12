@@ -1,0 +1,82 @@
+{
+  "campaigns": 1,
+  "family": "natural_long_grid",
+  "fills": 4,
+  "hypothesis": "H3",
+  "job_id": "H3_CLOSE1__LQ50000000__5min__natural_long_grid__CVX",
+  "metrics": {
+    "annualized_return": -8.92108281805859e-05,
+    "average_mae_usd": -56.438713395204104,
+    "average_mfe_usd": -44.66459687809038,
+    "best_5_trade_legs_usd": [
+      -44.66459687809038
+    ],
+    "best_mfe_r": -0.04466459687809038,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 1,
+    "cost_drag_usd": 9.91589509379123,
+    "ending_equity": 99955.3354031219,
+    "expectancy_r": -0.04466459687809038,
+    "expectancy_usd": -44.66459687809038,
+    "exposure_pct": 0.000794912559618442,
+    "fill_count": 4,
+    "financing_cost_usd": 0.0,
+    "kill_count": 1,
+    "max_drawdown": -0.0005643871339521267,
+    "max_gross_leverage_used": 0.19780711702053932,
+    "max_net_beta_exposure": 0.19236916732682757,
+    "mean_holding_hours": 0.08333333333333333,
+    "mean_reversion_success_rate": null,
+    "median_holding_hours": 0.08333333333333333,
+    "number_of_trades": 1,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "warning": {
+        "expectancy_usd": -44.66459687809038,
+        "pnl_usd": -44.66459687809038,
+        "trades": 1,
+        "win_rate": 0.0
+      }
+    },
+    "profit_factor": 0.0,
+    "sharpe": -0.44774694523689806,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.00040706649331201383,
+      "1.0x": -0.00044664596878096763,
+      "2.0x": -0.0005258049197187642
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": null,
+    "top_week_profit_share": null,
+    "total_return": -0.00044664596878096763,
+    "turnover": 0.39606308275650076,
+    "win_rate": 0.0,
+    "worst_5_trade_legs_usd": [
+      -44.66459687809038
+    ],
+    "worst_mae_r": -0.05643871339520411
+  },
+  "pair": "CVX",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H3_CLOSE1",
+  "warnings": []
+}

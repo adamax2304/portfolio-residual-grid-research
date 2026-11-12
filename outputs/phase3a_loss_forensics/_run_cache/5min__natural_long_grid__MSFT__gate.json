@@ -1,0 +1,21 @@
+{
+  "after_cost_tp_filter": 2,
+  "after_data_session_filters": 93620,
+  "after_grid_geometry_validation": 2,
+  "after_market_regime_filter": 23426,
+  "after_range_filter": 48759,
+  "after_support_proximity": 319,
+  "after_trend_filter": 26330,
+  "after_volatility_filter": 23743,
+  "after_volume_filter": 1123,
+  "cooldown_rejections": 0,
+  "dominant_gate": "range",
+  "event_data_status": "UNAVAILABLE_IN_HF_R_LITE",
+  "event_filter_failed": null,
+  "final_armed_signals": 2,
+  "final_campaigns": 0,
+  "strategy_family": "natural_long_grid",
+  "symbol": "MSFT",
+  "timeframe": "5min",
+  "total_candles": 93680
+}

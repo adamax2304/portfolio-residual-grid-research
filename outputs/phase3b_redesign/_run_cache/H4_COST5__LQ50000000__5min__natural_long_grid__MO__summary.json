@@ -1,0 +1,86 @@
+{
+  "campaigns": 3,
+  "family": "natural_long_grid",
+  "fills": 11,
+  "hypothesis": "H4",
+  "job_id": "H4_COST5__LQ50000000__5min__natural_long_grid__MO",
+  "metrics": {
+    "annualized_return": 0.005022926282060469,
+    "average_mae_usd": -196.62884392079772,
+    "average_mfe_usd": 984.7905457581534,
+    "best_5_trade_legs_usd": [
+      1843.8650505749174,
+      841.668694398264,
+      -144.8456590608621
+    ],
+    "best_mfe_r": 1.8711606561170775,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 5,
+    "cost_drag_usd": 50.2895311795278,
+    "ending_equity": 102540.68808591229,
+    "expectancy_r": 0.8468960286374398,
+    "expectancy_usd": 846.8960286374398,
+    "exposure_pct": 0.0047694753577106515,
+    "fill_count": 11,
+    "financing_cost_usd": 0.0,
+    "kill_count": 2,
+    "max_drawdown": -0.005491539504205556,
+    "max_gross_leverage_used": 1.3321556721153058,
+    "max_net_beta_exposure": 1.344172014122541,
+    "mean_holding_hours": 37.166666666666664,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 22.916666666666668,
+    "number_of_trades": 3,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 1843.8650505749174,
+        "pnl_usd": 1843.8650505749174,
+        "trades": 1,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": 348.411517668701,
+        "pnl_usd": 696.823035337402,
+        "trades": 2,
+        "win_rate": 0.5
+      }
+    },
+    "profit_factor": 18.54065743071222,
+    "sharpe": 0.73608027351776,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.02563082851502063,
+      "1.0x": 0.025406880859122793,
+      "2.0x": 0.02495898554732756
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.6865916520417176,
+    "top_week_profit_share": 0.6865916520417176,
+    "total_return": 0.025406880859122793,
+    "turnover": 5.332922703004055,
+    "win_rate": 0.6666666666666666,
+    "worst_5_trade_legs_usd": [
+      -144.8456590608621,
+      841.668694398264,
+      1843.8650505749174
+    ],
+    "worst_mae_r": -0.3242141740070947
+  },
+  "pair": "MO",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H4_COST5",
+  "warnings": []
+}

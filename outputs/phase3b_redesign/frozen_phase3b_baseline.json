@@ -1,0 +1,494 @@
+{
+  "allowed_post_freeze_changes": [
+    "BUG_FIX",
+    "REPORTING_ONLY",
+    "TEST_ONLY",
+    "DATA_ADAPTER_ONLY"
+  ],
+  "calendar_handling": "XNYS",
+  "code_components": {
+    "src/residual_grid_research/__init__.py": "0584cab38b319cf165d09cfc6644097a446eba7d8aa5f58ad79d88b2776543ff",
+    "src/residual_grid_research/agents/__init__.py": "b8fdacd0b11cac59f07dad062e7cace70b9d0b058d473da7e4a65339dd76c567",
+    "src/residual_grid_research/agents/event_scoped.py": "815d2204a95091027c35c1781a13d83a670a217b57c9ddf33b0966aeddd8b397",
+    "src/residual_grid_research/backtest/__init__.py": "67d179b156a7f4db00de82fe2a6ab4ffedde7ec99aeaad038522323b1d13ad0f",
+    "src/residual_grid_research/backtest/engine.py": "a6a428bec97e6d46e70e0e9fa63ae52298cda4ae524dbae7fbaf55d7e999c3fa",
+    "src/residual_grid_research/backtest/metrics.py": "6292d8a0fa3d0a53554b9170f1eefd92dcbb31347f30a701cd8694a95397d240",
+    "src/residual_grid_research/backtest/walk_forward.py": "f64785c63206fb9192f12f3dd29b8994a4f79ece0880793e9d94a4ff148663ab",
+    "src/residual_grid_research/cli.py": "dde54d6fcfcb7f098965aaefaf49ab9b81b7ed69f2149dba0dc10f2940de31e8",
+    "src/residual_grid_research/config.py": "a23cb829c8bb591238298c6bba4b8e227dff9ee0b3d9aa36fac1f3813f20bfdb",
+    "src/residual_grid_research/data/__init__.py": "d6fb68f133ca669478733ade224cfde0835e5f77442aa4c25487105e848add9e",
+    "src/residual_grid_research/data/alpha_vantage.py": "58cfdd59ff2ee342c96c3acb463e0d3b6bdff9b5c6297194fc5543d7511f1b0a",
+    "src/residual_grid_research/data/events.py": "4123c04a83f4f886e9e1142ae879b3629cd7514030b247312615a1b4cb723f41",
+    "src/residual_grid_research/data/exchange_calendar.py": "3b0c85b6322d18e44d0c17671ab77ef27381cb297e788af5a3f514b7edd66e71",
+    "src/residual_grid_research/data/independent_intraday.py": "f2b4d7d5193149e5de2dd7e3d73fc0f310d83b158084539eb987881e7cf4b7cd",
+    "src/residual_grid_research/data/synthetic.py": "00d8e51e01a4ba20422036dcba7563edb1c9d6fa8575067577485b2671c0b5be",
+    "src/residual_grid_research/data/trial_adapters.py": "0b0fc9aa80b4369f3cdb0b1325b334251e5bf232abf95ad824235caf89e4a568",
+    "src/residual_grid_research/data/yahoo_finance.py": "c4ebda394dfba657f5141b44ab01fb7d9f10826bf4a9f0b900a2a73e26fe3477",
+    "src/residual_grid_research/features/__init__.py": "eb7be7b05405e347a9d9bacdb681a9916a300da9a9c14c9dfd9d7ca166ec6d62",
+    "src/residual_grid_research/features/liquidity.py": "b40f5a6ddd02b4ee4fd6262d2cc6b8e8ebda15cef91e8d470932a6a526c3406d",
+    "src/residual_grid_research/features/regime.py": "e8323378abd7ad80c8ba150c056a4e1b9a51fb8e4f9be96148031a09dacca964",
+    "src/residual_grid_research/features/scoring.py": "c3df4687b96d31849b33f296a5e7bf716d05dce066078029a9f1b58268d3a056",
+    "src/residual_grid_research/features/statistics.py": "7f9ef55990c6ba0b63e57c1f3aed92e6ecb5d21b320c4ef1b4a52381a1e9f5a9",
+    "src/residual_grid_research/features/technical.py": "5aceb1673c4d4fa1e71e47e4c32d157f6218484f11d6ee83a77bf1158e2aaecb",
+    "src/residual_grid_research/models.py": "8ab7eee4f7146876262567a367828018bb612bf369f6df56c8bffe2a3807bc15",
+    "src/residual_grid_research/phase2a.py": "bdbafef4ab14dd09a90f10f08346dfdb4fba54fad17fc5cf3ff405980dfbbcfa",
+    "src/residual_grid_research/phase2b.py": "ea44f2760ddd5bed2819dce173d3eeeb2095241878d2860c47ff278d35719af7",
+    "src/residual_grid_research/phase2c.py": "1c643b5d198aa1065edd456cd0adb4918d63f820de818e49568adbe4b72f5206",
+    "src/residual_grid_research/phase2d.py": "e303ab37fca28dee945aa0a6f528c01a0730047ce0a54b78ec0d112721e15a7b",
+    "src/residual_grid_research/phase2d_data_trial.py": "47882b940149a822c3416ef52af26aaecd607b20c3a8f6eac86e4ea6be1052b4",
+    "src/residual_grid_research/phase3a.py": "81dc7d3482703aeb1635629897850bf07dd6d0ba0efbee5238d66131ee69b427",
+    "src/residual_grid_research/phase3b.py": "725322ab027c560e253130fdc6c96cdb805e9fdd28f3c8afac970ff64de62d14",
+    "src/residual_grid_research/reports/__init__.py": "ac2476dca7e5ef8c85e660ed49aa8e1d779d3f99d53a025a76b4842d90b59a64",
+    "src/residual_grid_research/reports/markdown.py": "945d27e4c6323d78dfff9e3a9306847c4c9dbc7eb580e705f2a4845b884d6275",
+    "src/residual_grid_research/reports/phase2b.py": "f3336bb0ba7ef82a0fc650dd9a5098811a9affb5f214a2d02eda53c1d47e4ee0",
+    "src/residual_grid_research/reports/real_data.py": "55ac661a7afbf23ca7bd4d0779c15e164e1b56444214e5e8cc585c2a9e069ea5",
+    "src/residual_grid_research/research.py": "7b34a437529232f97daec24315be6d04e1228514261690970c24f4a42da1340a",
+    "src/residual_grid_research/risk/__init__.py": "6faaa0ef8f52ad2701aee751fe1db40c6e06d3a2f67a76ef47e37e7e13a3a6a2",
+    "src/residual_grid_research/risk/manager.py": "30cd0e85e2ccbdd8354689311f01348f224e1b9ab1cc391d6883cf0b74af0132",
+    "src/residual_grid_research/strategies/__init__.py": "e0b842d20950ffebbd4c1a3813d1d8058fb8653529ea7d3640c3989d675c244a",
+    "src/residual_grid_research/strategies/base.py": "1d607262267f7b9660f3c2aadbe613facfa956f5554d4da56a5719f0e8cf2385",
+    "src/residual_grid_research/strategies/breakout.py": "d2f169127c00914939fa7c2d41b671e607d10e99ea876c19e70f6c48383d757d",
+    "src/residual_grid_research/strategies/natural_grid.py": "df39935382d29fbacaf9afff8912ae58fba4eb13300a4e72ba6b2eeae7d1ff91",
+    "src/residual_grid_research/strategies/pair_grid.py": "c81484a0051edb86e286b149a3dd8b35293819fb604018d78fe4ba49a455849b",
+    "src/residual_grid_research/strategies/residual_grid.py": "db4b09688fb5eacadaa7cd142a36b7665d26220be35998ec8d545c7108adb916",
+    "src/residual_grid_research/strategies/state_machine.py": "17a6cfe993cf44512f070c80a23110a5a590cc47d9094bfcb40ba8ace9a00eec",
+    "src/residual_grid_research/validation.py": "5ffb5ecfb0bdab453474497420470d78d575eeaffca14ee86290eede63592832"
+  },
+  "code_sha256": "6ff191ce760f527f198608c262be409a780ed4c84651d08e01aea2dfe5333339",
+  "config_sha256": "df6adfa4660833031600d1acf4d03fa55a9031fdefb76f75fe222e4025ce1f6b",
+  "cost_model": {
+    "commission_per_fill_usd": 0.5,
+    "costs_safety_multiple": 3.0,
+    "minimum_order_usd": 50,
+    "overnight_holding_annual_pct": 0.0,
+    "partial_fill_ratio": 1.0,
+    "short_borrow_annual_pct": 0.03,
+    "slippage_bps": 3.0,
+    "spread_bps": 2.0,
+    "stress_multiplier": 2.0
+  },
+  "data_source": "HF_R_LITE_LIMITED",
+  "disabled_modules": [
+    "residual_grid_redesign",
+    "breakout_continuation_baseline"
+  ],
+  "event_filter": {
+    "apply_to_both_legs": true,
+    "earnings_after_trading_days": 2,
+    "earnings_before_trading_days": 5,
+    "ex_dividend_short_buffer_days": 2,
+    "existing_position_behavior": "hold_but_no_new_adds",
+    "point_in_time_guaranteed": false,
+    "recheck_pending_orders": true,
+    "source": "unavailable_hf_r_lite"
+  },
+  "fill_model": {
+    "accounting_method": "average_cost_with_leg_metadata",
+    "gap_stop": "next_available_tradable_price",
+    "market_execution": "next_bar_open",
+    "partial_fills": "full",
+    "resting_limits": "touch_required",
+    "same_bar_entry_exit": "adverse_only",
+    "same_candle_barrier_order": "adverse_first",
+    "signal_timing": "candle_close",
+    "subledgers": [
+      "grid_ledger",
+      "breakout_ledger",
+      "campaign_ledger"
+    ]
+  },
+  "frozen_at_utc": "2026-09-19T19:01:37.609796+00:00",
+  "git_commit_hash": "6aff20fd380d2c73c681586caf97fd912aac9d28",
+  "liquidity_gate": {
+    "basis": "prior_daily_sessions",
+    "early_close": "SUM_ACTUAL_SESSION_BARS_NO_SCALING",
+    "lag": "one_full_trading_session",
+    "missing_volume": "FAIL_CLOSED",
+    "threshold_usd": 50000000,
+    "window_sessions": 20
+  },
+  "live_trading_status": "NO-GO",
+  "package_version": "0.1.0",
+  "phase": "3B",
+  "protocol": "LIQUIDITY_GATE_FIX_FROZEN_REDESIGN_OOS_REVALIDATION",
+  "source_limitations": [
+    "adjusted OHLC rather than raw as-traded execution prices",
+    "post-March-2022 IEX-only volume and prints",
+    "survivorship-biased symbol catalog",
+    "point-in-time events unavailable"
+  ],
+  "strategy_configs": {
+    "breakout": {
+      "atr_buffer": 0.2,
+      "confirmation_closes": 2,
+      "confirmation_mode": "closes",
+      "enabled": false,
+      "failed_breakout_bars": 3,
+      "minimum_score": 70,
+      "volume_ratio": 1.5
+    },
+    "liquidity_sweep": {
+      "mode": "none",
+      "reclaim_bars": 3,
+      "size_boost": 1.25
+    },
+    "natural": {
+      "atr_kill_multiple": 1.5,
+      "catastrophic_stop_atr": null,
+      "cost_aware_tp_multiple": null,
+      "grid_level_count": 4,
+      "grid_step_atr": 0.55,
+      "hard_stop_atr": 0.6,
+      "lower_range_fraction": 0.35,
+      "max_grid_depth": 4,
+      "max_holding_days": 10,
+      "pivot_window": 5,
+      "range_lookback": 60,
+      "stop_confirmation_closes": 2,
+      "stop_trigger_mode": "legacy_close_or_two_close",
+      "stop_variant": "current",
+      "tp_mode": "range_scaleout"
+    },
+    "pairs": {
+      "entry_z": 1.5,
+      "grid_level_count": 4,
+      "grid_levels": [
+        1.5,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "hedge_method": "beta_neutral",
+      "kill_z": 3.0,
+      "max_holding_days": 5,
+      "simple_exit_z": null,
+      "stationarity_proxy": true,
+      "stationarity_proxy_enabled": true,
+      "take_profit_z": [
+        0.8,
+        0.5,
+        0.0
+      ]
+    },
+    "residual": {
+      "allow_short_stock": true,
+      "entry_z": 1.5,
+      "grid_level_count": 4,
+      "grid_levels": [
+        1.5,
+        1.8,
+        2.1,
+        2.4
+      ],
+      "hedge_method": "beta_neutral",
+      "hedge_with_etf": true,
+      "kill_z": 3.0,
+      "max_holding_days": 5,
+      "take_profit_z": [
+        0.8,
+        0.5,
+        0.0
+      ]
+    }
+  },
+  "universe": {
+    "benchmarks": [
+      "SPY",
+      "QQQ"
+    ],
+    "natural_long_symbols": [
+      "CSCO",
+      "XOM",
+      "JPM",
+      "VZ",
+      "MO",
+      "KO",
+      "PFE",
+      "CVX",
+      "BAC",
+      "MSFT",
+      "AAPL"
+    ],
+    "stock_etf_pairs": [
+      [
+        "CSCO",
+        "XLK"
+      ],
+      [
+        "JPM",
+        "XLF"
+      ],
+      [
+        "XOM",
+        "XLE"
+      ],
+      [
+        "VZ",
+        "XLC"
+      ],
+      [
+        "MO",
+        "XLP"
+      ],
+      [
+        "KO",
+        "XLP"
+      ],
+      [
+        "PFE",
+        "XLV"
+      ],
+      [
+        "CVX",
+        "XLE"
+      ],
+      [
+        "BAC",
+        "XLF"
+      ],
+      [
+        "MSFT",
+        "XLK"
+      ],
+      [
+        "AAPL",
+        "XLK"
+      ]
+    ],
+    "stock_pairs": [
+      [
+        "MA",
+        "V"
+      ],
+      [
+        "JPM",
+        "BAC"
+      ],
+      [
+        "XOM",
+        "CVX"
+      ],
+      [
+        "KO",
+        "PEP"
+      ],
+      [
+        "VZ",
+        "T"
+      ],
+      [
+        "CSCO",
+        "IBM"
+      ],
+      [
+        "PFE",
+        "MRK"
+      ]
+    ]
+  },
+  "universe_sha256": "8f502a95e55ffd58a064f778a3ed31dc4078058f809b000e27be7540926f889b",
+  "variant_registry_sha256": "727bd350e32abbba6c92e08124fd4635b66b51a6eb782b66c417cd909cbb66f8",
+  "variants": {
+    "H1_CORRECTED_BASELINE": {
+      "changes": {},
+      "family": "natural_long_grid",
+      "hypothesis": "H1"
+    },
+    "H2_STEP08_TP10_DEPTH3_RANGE1": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "grid_level_count": 3,
+            "grid_step_atr": 0.8,
+            "max_grid_depth": 3,
+            "stop_variant": "range_low_1.0_atr",
+            "tp_mode": "1.0_step"
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H2"
+    },
+    "H2_STEP10_TP10_DEPTH5_RANGE1": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "grid_level_count": 5,
+            "grid_step_atr": 1.0,
+            "max_grid_depth": 5,
+            "stop_variant": "range_low_1.0_atr",
+            "tp_mode": "1.0_step"
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H2"
+    },
+    "H2_STEP12_TP15_DEPTH7_STRUCTURE": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "grid_level_count": 7,
+            "grid_step_atr": 1.2,
+            "max_grid_depth": 7,
+            "stop_variant": "structure_close",
+            "tp_mode": "1.5_step"
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H2"
+    },
+    "H3_CLOSE1": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "catastrophic_stop_atr": 2.5,
+            "stop_confirmation_closes": 1,
+            "stop_trigger_mode": "close_confirmation",
+            "stop_variant": "structure_close"
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H3"
+    },
+    "H3_CLOSE2": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "catastrophic_stop_atr": 2.5,
+            "stop_confirmation_closes": 2,
+            "stop_trigger_mode": "close_confirmation",
+            "stop_variant": "structure_close"
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H3"
+    },
+    "H3_INTRABAR": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "catastrophic_stop_atr": null,
+            "stop_trigger_mode": "intrabar",
+            "stop_variant": "current"
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H3"
+    },
+    "H4_COST3": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "cost_aware_tp_multiple": 3.0
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H4"
+    },
+    "H4_COST5": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "cost_aware_tp_multiple": 5.0
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H4"
+    },
+    "H4_COST8": {
+      "changes": {
+        "strategy": {
+          "natural": {
+            "cost_aware_tp_multiple": 8.0
+          }
+        }
+      },
+      "family": "natural_long_grid",
+      "hypothesis": "H4"
+    },
+    "H5_CORRECTED_BASELINE": {
+      "changes": {},
+      "family": "stock_pair_grid",
+      "hypothesis": "H5"
+    },
+    "H6_EXIT00": {
+      "changes": {
+        "strategy": {
+          "pairs": {
+            "simple_exit_z": 0.0
+          }
+        }
+      },
+      "family": "stock_pair_grid",
+      "hypothesis": "H6"
+    },
+    "H6_EXIT02": {
+      "changes": {
+        "strategy": {
+          "pairs": {
+            "simple_exit_z": 0.2
+          }
+        }
+      },
+      "family": "stock_pair_grid",
+      "hypothesis": "H6"
+    },
+    "H6_EXIT05": {
+      "changes": {
+        "strategy": {
+          "pairs": {
+            "simple_exit_z": 0.5
+          }
+        }
+      },
+      "family": "stock_pair_grid",
+      "hypothesis": "H6"
+    },
+    "H6_TIME10": {
+      "changes": {
+        "strategy": {
+          "pairs": {
+            "max_holding_days": 10
+          }
+        }
+      },
+      "family": "stock_pair_grid",
+      "hypothesis": "H6"
+    },
+    "H6_TIME3": {
+      "changes": {
+        "strategy": {
+          "pairs": {
+            "max_holding_days": 3
+          }
+        }
+      },
+      "family": "stock_pair_grid",
+      "hypothesis": "H6"
+    },
+    "H6_TIME5": {
+      "alias_of": "H5_CORRECTED_BASELINE",
+      "changes": {},
+      "family": "stock_pair_grid",
+      "hypothesis": "H6"
+    },
+    "H7_RESIDUAL_CONFIRMATION": {
+      "changes": {},
+      "family": "residual_grid",
+      "hypothesis": "H7"
+    }
+  },
+  "walk_forward": {
+    "no_test_optimization": true,
+    "state_carries_across_month_boundaries": true,
+    "test_months": 1,
+    "train_months": 6
+  }
+}

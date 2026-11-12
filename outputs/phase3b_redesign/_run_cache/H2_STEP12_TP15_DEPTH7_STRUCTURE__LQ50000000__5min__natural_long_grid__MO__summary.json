@@ -1,0 +1,84 @@
+{
+  "campaigns": 2,
+  "family": "natural_long_grid",
+  "fills": 5,
+  "hypothesis": "H2",
+  "job_id": "H2_STEP12_TP15_DEPTH7_STRUCTURE__LQ50000000__5min__natural_long_grid__MO",
+  "metrics": {
+    "annualized_return": 0.0004826931738004525,
+    "average_mae_usd": -103.81514110207536,
+    "average_mfe_usd": 125.06996985772821,
+    "best_5_trade_legs_usd": [
+      166.59676722945733,
+      75.34713960601584
+    ],
+    "best_mfe_r": 0.17479280010944057,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 2,
+    "cost_drag_usd": 6.187357399874789,
+    "ending_equity": 100241.94390683548,
+    "expectancy_r": 0.12097195341773659,
+    "expectancy_usd": 120.97195341773659,
+    "exposure_pct": 0.001589825119236884,
+    "fill_count": 5,
+    "financing_cost_usd": 0.0,
+    "kill_count": 0,
+    "max_drawdown": -0.0021217854147339565,
+    "max_gross_leverage_used": 0.3936566413040227,
+    "max_net_beta_exposure": 0.39956834269542957,
+    "mean_holding_hours": 2.25,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 2.25,
+    "number_of_trades": 2,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 120.97195341773659,
+        "pnl_usd": 241.94390683547317,
+        "trades": 2,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      }
+    },
+    "profit_factor": Infinity,
+    "sharpe": 0.5925098426986143,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.0024378758553542657,
+      "1.0x": 0.002419439068354734,
+      "2.0x": 0.0023825654943561148
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.6885759984968192,
+    "top_week_profit_share": 0.6885759984968192,
+    "total_return": 0.002419439068354734,
+    "turnover": 1.245522474970993,
+    "win_rate": 1.0,
+    "worst_5_trade_legs_usd": [
+      75.34713960601584,
+      166.59676722945733
+    ],
+    "worst_mae_r": -0.18692074524961935
+  },
+  "pair": "MO",
+  "threshold": 50000000.0,
+  "timeframe": "5min",
+  "variant": "H2_STEP12_TP15_DEPTH7_STRUCTURE",
+  "warnings": []
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+residual-grid = residual_grid_research.cli:main

@@ -1,0 +1,221 @@
+project:
+  name: residual_grid_phase3b_redesign
+  package_version: 0.1.0
+  starting_capital_usd: 100000
+  timezone: America/New_York
+  seed: 42
+
+phase3b:
+  protocol: LIQUIDITY_GATE_FIX_FROZEN_REDESIGN_OOS_REVALIDATION
+  live_trading_status: NO-GO
+  source_status: HF_R_LITE_LIMITED
+  preregistered_before_result_review: true
+  allowed_post_freeze_changes: [BUG_FIX, REPORTING_ONLY, TEST_ONLY, DATA_ADAPTER_ONLY]
+  residual_current_form: ABANDON_CONFIRMATION_RUN_ONLY
+  breakout_baseline: DISABLED
+  liquidity_diagnostic_thresholds: [10000000, 25000000, 50000000, 100000000, null]
+  hypotheses:
+    H1:
+      description: Natural grid density repair with corrected prior-session ADV only.
+      variants: [H1_CORRECTED_BASELINE]
+    H2:
+      description: Pre-registered wider natural-grid geometry packages; no best-setting selection.
+      variants: [H2_STEP08_TP10_DEPTH3_RANGE1, H2_STEP10_TP10_DEPTH5_RANGE1, H2_STEP12_TP15_DEPTH7_STRUCTURE]
+    H3:
+      description: Stop-trigger mechanics with intrabar, one-close, and two-close variants.
+      variants: [H3_INTRABAR, H3_CLOSE1, H3_CLOSE2]
+    H4:
+      description: Natural entry requires expected gross TP to cover round-trip costs by fixed multiple.
+      variants: [H4_COST3, H4_COST5, H4_COST8]
+    H5:
+      description: Stock-pair density repair with corrected prior-session ADV only.
+      variants: [H5_CORRECTED_BASELINE]
+    H6:
+      description: Factor-isolated pair exit and time-stop diagnostics.
+      variants: [H6_EXIT05, H6_EXIT02, H6_EXIT00, H6_TIME3, H6_TIME5, H6_TIME10]
+    H7:
+      description: One unchanged residual confirmation run after ADV correction; no residual optimization.
+      variants: [H7_RESIDUAL_CONFIRMATION]
+    H8:
+      description: Breakout remains disabled in every Phase 3B run.
+      variants: [H8_BREAKOUT_DISABLED]
+
+data:
+  provider: hf_data_library
+  provider_independence: independent_from_yfinance_phase2a_phase2b
+  start: 2021-09-01
+  end: 2026-09-04
+  minimum_years: 2
+  preferred_years: 5
+  baseline_interval: 5min
+  robustness_interval: 15min
+  intervals: [5min, 15min]
+  adjusted_indicators: true
+  raw_execution: false
+  extended_hours: false
+  regular_hours_only: true
+  cache_dir: data/phase2d_data_trial/hf_data_library
+  calendar: XNYS
+  no_trade_window_minutes: 10
+
+universe:
+  stock_etf_pairs:
+    - [CSCO, XLK]
+    - [JPM, XLF]
+    - [XOM, XLE]
+    - [VZ, XLC]
+    - [MO, XLP]
+    - [KO, XLP]
+    - [PFE, XLV]
+    - [CVX, XLE]
+    - [BAC, XLF]
+    - [MSFT, XLK]
+    - [AAPL, XLK]
+  stock_pairs:
+    - [MA, V]
+    - [JPM, BAC]
+    - [XOM, CVX]
+    - [KO, PEP]
+    - [VZ, T]
+    - [CSCO, IBM]
+    - [PFE, MRK]
+  natural_long_symbols: [CSCO, XOM, JPM, VZ, MO, KO, PFE, CVX, BAC, MSFT, AAPL]
+  benchmarks: [SPY, QQQ]
+  min_price: 5
+  min_average_daily_dollar_volume: 50000000
+  min_history_bars: 1000
+
+features:
+  correlation_windows: [30, 60, 90, 120]
+  beta_window: 60
+  z_window: 90
+  stock_etf_corr_min: 0.65
+  stock_etf_short_corr_min: 0.70
+  stock_pair_corr_min: 0.75
+  stock_pair_corr_90_min: 0.65
+  correlation_kill: 0.55
+  beta_stability_max: 0.35
+  zone_width_atr: 0.5
+  adx_period: 14
+  adx_filter_enabled: true
+  range_adx_max: 23
+  range_width_atr_min: 3.0
+  range_width_atr_max: 10.0
+  atr_expansion_max: 1.4
+  market_adx_max: 25
+  market_atr_expansion_max: 1.5
+  candidate_score_min: 70
+  liquidity_basis: prior_daily_sessions
+  liquidity_adv_window_sessions: 20
+  liquidity_gate_enabled: true
+
+strategy:
+  residual:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+    allow_short_stock: true
+    hedge_with_etf: true
+    hedge_method: beta_neutral
+  pairs:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+    hedge_method: beta_neutral
+    stationarity_proxy: true
+    stationarity_proxy_enabled: true
+    simple_exit_z: null
+  natural:
+    lower_range_fraction: 0.35
+    grid_step_atr: 0.55
+    hard_stop_atr: 0.6
+    stop_variant: current
+    stop_trigger_mode: legacy_close_or_two_close
+    stop_confirmation_closes: 2
+    catastrophic_stop_atr: null
+    cost_aware_tp_multiple: null
+    tp_mode: range_scaleout
+    atr_kill_multiple: 1.5
+    pivot_window: 5
+    range_lookback: 60
+    max_holding_days: 10
+    grid_level_count: 4
+    max_grid_depth: 4
+  breakout:
+    enabled: false
+    minimum_score: 70
+    volume_ratio: 1.5
+    confirmation_closes: 2
+    confirmation_mode: closes
+    atr_buffer: 0.2
+    failed_breakout_bars: 3
+  liquidity_sweep:
+    mode: none
+    reclaim_bars: 3
+    size_boost: 1.25
+
+risk:
+  max_risk_per_trade_pct: 0.01
+  max_daily_loss_pct: 0.025
+  max_weekly_loss_pct: 0.06
+  max_gross_leverage: 6.0
+  max_effective_leverage_start: 2.0
+  max_open_positions: 4
+  max_kills_per_symbol_per_month: 4
+  cooldown_days: 2
+  max_campaign_mae_r: 1.0
+  layer_weights: [0.20, 0.25, 0.25, 0.30]
+
+costs:
+  commission_per_fill_usd: 0.50
+  spread_bps: 2.0
+  slippage_bps: 3.0
+  short_borrow_annual_pct: 0.03
+  overnight_holding_annual_pct: 0.0
+  minimum_order_usd: 50
+  partial_fill_ratio: 1.0
+  costs_safety_multiple: 3.0
+  stress_multiplier: 2.0
+
+events:
+  source: unavailable_hf_r_lite
+  point_in_time_guaranteed: false
+  earnings_before_trading_days: 5
+  earnings_after_trading_days: 2
+  ex_dividend_short_buffer_days: 2
+  existing_position_behavior: hold_but_no_new_adds
+  apply_to_both_legs: true
+  recheck_pending_orders: true
+
+execution:
+  signal_timing: candle_close
+  market_execution: next_bar_open
+  resting_limits: touch_required
+  same_candle_barrier_order: adverse_first
+  gap_stop: next_available_tradable_price
+  same_bar_entry_exit: adverse_only
+  partial_fills: full
+  accounting_method: average_cost_with_leg_metadata
+  subledgers: [grid_ledger, breakout_ledger, campaign_ledger]
+
+walk_forward:
+  train_months: 6
+  test_months: 1
+  no_test_optimization: true
+  state_carries_across_month_boundaries: true
+
+evaluation:
+  early_research_minimum_campaigns: 30
+  preferred_campaigns: 50
+  maximum_best_campaign_profit_share: 0.25
+  cost_multipliers: [1, 2, 3]
+  spread_multipliers: [1, 2]
+
+outputs:
+  directory: outputs/phase3b_redesign

@@ -1,0 +1,87 @@
+{
+  "campaigns": 324,
+  "family": "residual_grid",
+  "fills": 2450,
+  "metrics": {
+    "annualized_return": -0.05898204205014945,
+    "average_mae_usd": -130.3977616052876,
+    "average_mfe_usd": 26.233597190001564,
+    "best_5_trade_legs_usd": [
+      1714.5073218728237,
+      506.04117191319506,
+      433.0785490788893,
+      328.790435706458,
+      277.898857157006
+    ],
+    "best_mfe_r": 1.738223320856203,
+    "breakout_success_rate": 0.13333333333333333,
+    "closed_trade_legs": 1186,
+    "cost_drag_usd": 28605.275166820556,
+    "ending_equity": 73754.88211706176,
+    "expectancy_r": -0.0810034502559833,
+    "expectancy_usd": -81.0034502559833,
+    "exposure_pct": 0.2655007949125596,
+    "fill_count": 2450,
+    "financing_cost_usd": 296.5671756891513,
+    "kill_count": 198,
+    "max_drawdown": -0.2708250216786391,
+    "max_gross_leverage_used": 4.344652512755295,
+    "max_net_beta_exposure": 1.5814340323093226,
+    "mean_holding_hours": 5.352109053497942,
+    "mean_reversion_success_rate": 0.5196078431372549,
+    "median_holding_hours": 0.5,
+    "number_of_trades": 324,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": -30.471441164683775,
+        "pnl_usd": -914.1432349405131,
+        "trades": 30,
+        "win_rate": 0.13333333333333333
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": -10.8270738504752,
+        "pnl_usd": -1104.3615327484702,
+        "trades": 102,
+        "win_rate": 0.5196078431372549
+      },
+      "warning": {
+        "expectancy_usd": -126.180276641925,
+        "pnl_usd": -24226.613115249605,
+        "trades": 192,
+        "win_rate": 0.09895833333333333
+      }
+    },
+    "profit_factor": 0.22570692744999088,
+    "sharpe": -3.215742030817998,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.1270326388737254,
+      "1.0x": -0.2624511788293824,
+      "2.0x": -0.5332882587406964
+    },
+    "sortino": -2.2421108566887296,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.22410487364862486,
+    "top_week_profit_share": 0.3008028037205601,
+    "total_return": -0.2624511788293824,
+    "turnover": 906.4303523776026,
+    "win_rate": 0.2345679012345679,
+    "worst_5_trade_legs_usd": [
+      -1100.5432480467205,
+      -803.5674102846169,
+      -753.90557438411,
+      -715.4490253368654,
+      -555.2813593482299
+    ],
+    "worst_mae_r": -1.1005432480467205
+  },
+  "run_id": "5min__residual_grid__CVX_XLE",
+  "strategy_name": "residual_grid:CVX/XLE",
+  "timeframe": "5min",
+  "warnings": []
+}

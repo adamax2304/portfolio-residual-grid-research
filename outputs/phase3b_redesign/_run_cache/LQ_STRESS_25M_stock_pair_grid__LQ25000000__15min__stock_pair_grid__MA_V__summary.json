@@ -1,0 +1,90 @@
+{
+  "campaigns": 142,
+  "family": "stock_pair_grid",
+  "fills": 1112,
+  "hypothesis": "LIQUIDITY_STRESS",
+  "job_id": "LQ_STRESS_25M_stock_pair_grid__LQ25000000__15min__stock_pair_grid__MA_V",
+  "metrics": {
+    "annualized_return": -0.009501009947702976,
+    "average_mae_usd": -197.9714274160902,
+    "average_mfe_usd": 142.20260826204563,
+    "best_5_trade_legs_usd": [
+      1884.3821532614918,
+      1001.1511051184522,
+      823.0275845134765,
+      819.7512884643477,
+      670.7930846693947
+    ],
+    "best_mfe_r": 1.9190280721310047,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 546,
+    "cost_drag_usd": 17486.92746318922,
+    "ending_equity": 95332.05830608305,
+    "expectancy_r": -0.0328728288303993,
+    "expectancy_usd": -32.8728288303993,
+    "exposure_pct": 0.14149443561208266,
+    "fill_count": 1112,
+    "financing_cost_usd": 534.7806377222742,
+    "kill_count": 95,
+    "max_drawdown": -0.07120295728465187,
+    "max_gross_leverage_used": 5.096493249353321,
+    "max_net_beta_exposure": 1.1174950259308933,
+    "mean_holding_hours": 12.982394366197184,
+    "mean_reversion_success_rate": 0.7872340425531915,
+    "median_holding_hours": 2.0,
+    "number_of_trades": 142,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 188.1979541945687,
+        "pnl_usd": 8845.303847144727,
+        "trades": 47,
+        "win_rate": 0.7872340425531915
+      },
+      "warning": {
+        "expectancy_usd": -142.24468990590978,
+        "pnl_usd": -13513.24554106143,
+        "trades": 95,
+        "win_rate": 0.21052631578947367
+      }
+    },
+    "profit_factor": 0.758050426138973,
+    "sharpe": -0.46209765298456007,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.035301317188165315,
+      "1.0x": -0.04667941693916944,
+      "2.0x": -0.21064088519383894
+    },
+    "sortino": -0.2334931807942939,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.1288458173956275,
+    "top_week_profit_share": 0.1371264864490375,
+    "total_return": -0.04667941693916944,
+    "turnover": 495.5508757259888,
+    "win_rate": 0.4014084507042254,
+    "worst_5_trade_legs_usd": [
+      -1653.8520502641948,
+      -1136.2518630684601,
+      -1131.3536451464981,
+      -744.1071695654474,
+      -698.3022697893775
+    ],
+    "worst_mae_r": -1.6538520502641947
+  },
+  "pair": "MA/V",
+  "threshold": 25000000.0,
+  "timeframe": "15min",
+  "variant": "LQ_STRESS_25M_stock_pair_grid",
+  "warnings": []
+}

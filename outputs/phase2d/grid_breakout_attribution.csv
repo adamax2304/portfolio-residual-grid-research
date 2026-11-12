@@ -1,0 +1,4 @@
+dataset,campaign_id,ledger,pnl_usd,combined_campaign_pnl_usd,reconciliation_error,status
+DETERMINISTIC_SYNTHETIC_ONLY,ledger_fixture,grid_ledger,95.0,140.0,0.0,PASS
+DETERMINISTIC_SYNTHETIC_ONLY,ledger_fixture,breakout_ledger,45.0,140.0,0.0,PASS
+DETERMINISTIC_SYNTHETIC_ONLY,ledger_fixture,campaign_ledger,140.0,140.0,0.0,PASS

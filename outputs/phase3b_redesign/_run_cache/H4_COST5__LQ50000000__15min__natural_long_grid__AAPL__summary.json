@@ -1,0 +1,90 @@
+{
+  "campaigns": 113,
+  "family": "natural_long_grid",
+  "fills": 499,
+  "hypothesis": "H4",
+  "job_id": "H4_COST5__LQ50000000__15min__natural_long_grid__AAPL",
+  "metrics": {
+    "annualized_return": 0.03124823360027218,
+    "average_mae_usd": -464.02713358171127,
+    "average_mfe_usd": 706.172052219654,
+    "best_5_trade_legs_usd": [
+      2876.410031506366,
+      2464.7622342396353,
+      2313.2861165486174,
+      2172.286925608809,
+      2084.23230366761
+    ],
+    "best_mfe_r": 2.8893074455529675,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 218,
+    "cost_drag_usd": 3807.376499802495,
+    "ending_equity": 116658.5841420526,
+    "expectancy_r": 0.14742109860223498,
+    "expectancy_usd": 147.421098602235,
+    "exposure_pct": 0.20588235294117646,
+    "fill_count": 499,
+    "financing_cost_usd": 0.0,
+    "kill_count": 80,
+    "max_drawdown": -0.08358955763794906,
+    "max_gross_leverage_used": 1.635188820210522,
+    "max_net_beta_exposure": 3.7766669659354517,
+    "mean_holding_hours": 45.07964601769911,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 25.0,
+    "number_of_trades": 113,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 1117.935661638426,
+        "pnl_usd": 36891.876834068054,
+        "trades": 33,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": -252.9161586501938,
+        "pnl_usd": -20233.292692015504,
+        "trades": 80,
+        "win_rate": 0.2875
+      }
+    },
+    "profit_factor": 1.383241951315921,
+    "sharpe": 0.6182982635417225,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.18437522391953842,
+      "1.0x": 0.1665858414205259,
+      "2.0x": 0.13100707642250087
+    },
+    "sortino": 0.3949620538122308,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.04783960650608248,
+    "top_week_profit_share": 0.04900415000568287,
+    "total_return": 0.1665858414205259,
+    "turnover": 172.83509877786645,
+    "win_rate": 0.49557522123893805,
+    "worst_5_trade_legs_usd": [
+      -2485.0270657822402,
+      -2388.1845356712292,
+      -2035.7556632570704,
+      -1646.5741257159098,
+      -1364.7366493350419
+    ],
+    "worst_mae_r": -2.509903465776777
+  },
+  "pair": "AAPL",
+  "threshold": 50000000.0,
+  "timeframe": "15min",
+  "variant": "H4_COST5",
+  "warnings": []
+}

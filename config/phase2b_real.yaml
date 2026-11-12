@@ -1,0 +1,235 @@
+project:
+  name: residual_grid_phase2b_edge_triage
+  starting_capital_usd: 100000
+  timezone: America/New_York
+  seed: 42
+
+data:
+  provider: yahoo_finance
+  daily_start: 2020-09-01
+  daily_end: 2026-09-06
+  adjusted: true
+  extended_hours: false
+  no_trade_window_minutes: 10
+  cache_dir: data/real/raw/yahoo_phase2b
+  event_path: data/real/events/historical_events_phase2b.csv
+
+universe:
+  stock_etf_map:
+    CSCO: [XLK, QQQ]
+    IBM: [XLK]
+    ORCL: [XLK]
+    HPQ: [XLK]
+    HPE: [XLK]
+    MSFT: [XLK]
+    AAPL: [XLK]
+    NVDA: [XLK]
+    ACN: [XLK]
+    VZ: [XLC]
+    T: [XLC]
+    TMUS: [XLC]
+    META: [XLC]
+    GOOGL: [XLC]
+    MO: [XLP]
+    KO: [XLP]
+    PEP: [XLP]
+    KHC: [XLP]
+    MDLZ: [XLP]
+    PG: [XLP]
+    CL: [XLP]
+    WMT: [XLP]
+    COST: [XLP]
+    JPM: [XLF]
+    BAC: [XLF]
+    WFC: [XLF]
+    C: [XLF]
+    GS: [XLF]
+    MS: [XLF]
+    MA: [XLF]
+    V: [XLF]
+    AXP: [XLF]
+    XOM: [XLE]
+    CVX: [XLE]
+    COP: [XLE]
+    SLB: [XLE]
+    EOG: [XLE]
+    PFE: [XLV]
+    MRK: [XLV]
+    BMY: [XLV]
+    ABBV: [XLV]
+    JNJ: [XLV]
+    UNH: [XLV]
+    LLY: [XLV]
+    MDT: [XLV]
+    CAT: [XLI]
+    HON: [XLI]
+    UNP: [XLI]
+    GE: [XLI]
+    RTX: [XLI]
+    DE: [XLI]
+    NEE: [XLU]
+    DUK: [XLU]
+    SO: [XLU]
+    AEP: [XLU]
+    AMZN: [XLY]
+    HD: [XLY]
+    MCD: [XLY]
+    NKE: [XLY]
+    LOW: [XLY]
+    SBUX: [XLY]
+    LIN: [XLB]
+    APD: [XLB]
+    SHW: [XLB]
+    FCX: [XLB]
+    NEM: [XLB]
+    PLD: [XLRE]
+    AMT: [XLRE]
+    EQIX: [XLRE]
+    SPG: [XLRE]
+    O: [XLRE]
+  stock_pairs: []
+  pair_groups:
+    banks: [JPM, BAC, WFC, C, GS, MS]
+    payments: [MA, V, AXP]
+    telecom: [VZ, T, TMUS]
+    staples: [KO, PEP, KHC, MDLZ, PG, CL]
+    energy: [XOM, CVX, COP, SLB]
+    tech_enterprise: [CSCO, IBM, ORCL, HPQ, HPE]
+    healthcare_large_cap: [PFE, MRK, BMY, ABBV, JNJ]
+  natural_long_symbols:
+    [CSCO, IBM, ORCL, HPQ, HPE, MSFT, AAPL, NVDA, ACN,
+     VZ, T, TMUS, META, GOOGL, MO, KO, PEP, KHC, MDLZ, PG, CL, WMT, COST,
+     JPM, BAC, WFC, C, GS, MS, MA, V, AXP, XOM, CVX, COP, SLB, EOG,
+     PFE, MRK, BMY, ABBV, JNJ, UNH, LLY, MDT, CAT, HON, UNP, GE, RTX, DE,
+     NEE, DUK, SO, AEP, AMZN, HD, MCD, NKE, LOW, SBUX, LIN, APD, SHW,
+     FCX, NEM, PLD, AMT, EQIX, SPG, O]
+  blind_expansion_pairs: []
+  benchmarks: [SPY, QQQ]
+  min_price: 5
+  min_average_daily_dollar_volume: 50000000
+  min_history_bars: 1000
+
+features:
+  correlation_windows: [30, 60, 90, 120]
+  beta_window: 60
+  z_window: 90
+  stock_etf_corr_min: 0.65
+  stock_etf_short_corr_min: 0.70
+  stock_pair_corr_min: 0.75
+  stock_pair_corr_90_min: 0.65
+  correlation_kill: 0.55
+  beta_stability_max: 0.35
+  zone_width_atr: 0.5
+  adx_period: 14
+  adx_filter_enabled: true
+  range_adx_max: 23
+  range_width_atr_min: 3.0
+  range_width_atr_max: 10.0
+  atr_expansion_max: 1.4
+  market_adx_max: 25
+  market_atr_expansion_max: 1.5
+  candidate_score_min: 70
+
+strategy:
+  residual:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+    allow_short_stock: true
+    hedge_with_etf: true
+  pairs:
+    entry_z: 1.5
+    grid_levels: [1.5, 1.8, 2.1, 2.4]
+    take_profit_z: [0.8, 0.5, 0.0]
+    kill_z: 3.0
+    max_holding_days: 5
+    grid_level_count: 4
+  natural:
+    lower_range_fraction: 0.35
+    grid_step_atr: 0.55
+    hard_stop_atr: 0.6
+    atr_kill_multiple: 1.5
+    pivot_window: 5
+    range_lookback: 60
+    max_holding_days: 10
+    grid_level_count: 4
+  breakout:
+    enabled: true
+    minimum_score: 70
+    volume_ratio: 1.5
+    confirmation_closes: 2
+    confirmation_mode: closes
+    atr_buffer: 0.2
+    failed_breakout_bars: 3
+  liquidity_sweep:
+    mode: none
+    reclaim_bars: 3
+    size_boost: 1.25
+
+risk:
+  max_risk_per_trade_pct: 0.01
+  max_daily_loss_pct: 0.025
+  max_weekly_loss_pct: 0.06
+  max_gross_leverage: 6.0
+  max_effective_leverage_start: 2.0
+  max_open_positions: 4
+  max_kills_per_symbol_per_month: 4
+  cooldown_days: 2
+  max_campaign_mae_r: 1.0
+  layer_weights: [0.20, 0.25, 0.25, 0.30]
+
+costs:
+  commission_per_fill_usd: 0.50
+  spread_bps: 2.0
+  slippage_bps: 3.0
+  short_borrow_annual_pct: 0.03
+  overnight_holding_annual_pct: 0.0
+  minimum_order_usd: 50
+  partial_fill_ratio: 1.0
+  costs_safety_multiple: 3.0
+
+events:
+  earnings_before_trading_days: 5
+  earnings_after_trading_days: 2
+  ex_dividend_short_buffer_days: 2
+
+walk_forward:
+  train_months: 6
+  test_months: 1
+  stability_train_months: [6, 12]
+
+pair_screen:
+  minimum_median_correlation: 0.60
+  maximum_median_beta_stability: 0.50
+  maximum_half_life_bars: 60
+  minimum_crossings_per_year: 4
+  maximum_event_blocked_pct: 0.35
+
+signal_density:
+  z_entry: [1.2, 1.4, 1.6, 1.8, 2.0]
+  correlation_threshold: [0.60, 0.65, 0.70, 0.75, 0.80]
+  beta_stability_threshold: [0.25, 0.35, 0.50]
+  grid_levels: [2, 3, 4, 5]
+  adx_filter: [true, false]
+  event_exclusion_days: [3, 5, 10]
+  time_stop_days: [3, 5, 10]
+
+sweep_filter:
+  modes: [none, required, boost]
+
+phase2b_acceptance:
+  minimum_closed_trade_legs: 50
+  minimum_campaigns: 30
+  minimum_profit_factor: 1.15
+  maximum_campaign_net_profit_share: 0.25
+  maximum_drawdown_pct: 0.15
+  minimum_return_to_drawdown: 0.50
+  minimum_robustness_score: 0.65
+  minimum_positive_regimes: 2
+  strict_cost_multiple: 2.0
+
+outputs:
+  directory: outputs/phase2b

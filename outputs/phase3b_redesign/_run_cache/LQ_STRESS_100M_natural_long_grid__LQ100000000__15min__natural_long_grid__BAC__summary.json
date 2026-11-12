@@ -1,0 +1,84 @@
+{
+  "campaigns": 2,
+  "family": "natural_long_grid",
+  "fills": 10,
+  "hypothesis": "LIQUIDITY_STRESS",
+  "job_id": "LQ_STRESS_100M_natural_long_grid__LQ100000000__15min__natural_long_grid__BAC",
+  "metrics": {
+    "annualized_return": -0.0009063696738030869,
+    "average_mae_usd": -250.59550794498136,
+    "average_mfe_usd": 672.1007809836083,
+    "best_5_trade_legs_usd": [
+      -153.0888158739399,
+      -299.9548918786968
+    ],
+    "best_mfe_r": 1.065674222037611,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 4,
+    "cost_drag_usd": 58.15348883478757,
+    "ending_equity": 99546.95629224734,
+    "expectancy_r": -0.22652185387631835,
+    "expectancy_usd": -226.52185387631835,
+    "exposure_pct": 0.006364359586316627,
+    "fill_count": 10,
+    "financing_cost_usd": 0.0,
+    "kill_count": 2,
+    "max_drawdown": -0.012095016499790723,
+    "max_gross_leverage_used": 0.5235764087714587,
+    "max_net_beta_exposure": 1.1074666890689215,
+    "mean_holding_hours": 95.375,
+    "mean_reversion_success_rate": null,
+    "median_holding_hours": 95.375,
+    "number_of_trades": 2,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "warning": {
+        "expectancy_usd": -226.52185387631835,
+        "pnl_usd": -453.0437077526367,
+        "trades": 2,
+        "win_rate": 0.0
+      }
+    },
+    "profit_factor": 0.0,
+    "sharpe": -0.1948703399086035,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.004264669633352591,
+      "1.0x": -0.004530437077526539,
+      "2.0x": -0.005061971965874434
+    },
+    "sortino": -0.14909393974209828,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": null,
+    "top_week_profit_share": null,
+    "total_return": -0.004530437077526539,
+    "turnover": 2.082320788275221,
+    "win_rate": 0.0,
+    "worst_5_trade_legs_usd": [
+      -299.9548918786968,
+      -153.0888158739399
+    ],
+    "worst_mae_r": -0.2999548918786968
+  },
+  "pair": "BAC",
+  "threshold": 100000000.0,
+  "timeframe": "15min",
+  "variant": "LQ_STRESS_100M_natural_long_grid",
+  "warnings": []
+}

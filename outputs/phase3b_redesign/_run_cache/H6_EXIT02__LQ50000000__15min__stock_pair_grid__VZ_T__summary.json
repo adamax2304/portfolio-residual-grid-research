@@ -1,0 +1,90 @@
+{
+  "campaigns": 11,
+  "family": "stock_pair_grid",
+  "fills": 80,
+  "hypothesis": "H6",
+  "job_id": "H6_EXIT02__LQ50000000__15min__stock_pair_grid__VZ_T",
+  "metrics": {
+    "annualized_return": -0.008662335432750856,
+    "average_mae_usd": -471.66303028641795,
+    "average_mfe_usd": 62.266253991734466,
+    "best_5_trade_legs_usd": [
+      241.32292200472435,
+      174.05021425301706,
+      78.39956127281322,
+      51.881381551988554,
+      8.23287709025278
+    ],
+    "best_mfe_r": 0.2518431012527253,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 38,
+    "cost_drag_usd": 1199.007815552622,
+    "ending_equity": 95736.94983956823,
+    "expectancy_r": -0.3875500145847149,
+    "expectancy_usd": -387.55001458471486,
+    "exposure_pct": 0.010333863275039745,
+    "fill_count": 80,
+    "financing_cost_usd": 30.26049557319538,
+    "kill_count": 6,
+    "max_drawdown": -0.04504899886079905,
+    "max_gross_leverage_used": 4.026124787937889,
+    "max_net_beta_exposure": 0.3556159990510545,
+    "mean_holding_hours": 8.590909090909092,
+    "mean_reversion_success_rate": 0.8,
+    "median_holding_hours": 1.25,
+    "number_of_trades": 11,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 35.73640734588183,
+        "pnl_usd": 178.68203672940922,
+        "trades": 5,
+        "win_rate": 0.8
+      },
+      "warning": {
+        "expectancy_usd": -740.2886995268788,
+        "pnl_usd": -4441.732197161273,
+        "trades": 6,
+        "win_rate": 0.16666666666666666
+      }
+    },
+    "profit_factor": 0.11498737533098985,
+    "sharpe": -0.7083655801213885,
+    "slippage_sensitivity_return": {
+      "0.5x": -0.03698676500442055,
+      "1.0x": -0.042630501604317694,
+      "2.0x": -0.05391797480411198
+    },
+    "sortino": -0.06822469506728997,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 0.43568984485967727,
+    "top_week_profit_share": 0.6353332770943246,
+    "total_return": -0.042630501604317694,
+    "turnover": 32.14111794675322,
+    "win_rate": 0.45454545454545453,
+    "worst_5_trade_legs_usd": [
+      -2624.4094813472498,
+      -1323.548364037753,
+      -344.1309201510092,
+      -323.3235378913982,
+      -126.68432748779222
+    ],
+    "worst_mae_r": -2.6244094813472496
+  },
+  "pair": "VZ/T",
+  "threshold": 50000000.0,
+  "timeframe": "15min",
+  "variant": "H6_EXIT02",
+  "warnings": []
+}

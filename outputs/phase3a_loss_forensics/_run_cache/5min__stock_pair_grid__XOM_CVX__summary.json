@@ -1,0 +1,79 @@
+{
+  "campaigns": 1,
+  "family": "stock_pair_grid",
+  "fills": 10,
+  "metrics": {
+    "annualized_return": 0.0007974672191457532,
+    "average_mae_usd": -93.17993511723762,
+    "average_mfe_usd": 415.674033174786,
+    "best_5_trade_legs_usd": [
+      399.97265058376246
+    ],
+    "best_mfe_r": 0.415674033174786,
+    "breakout_success_rate": null,
+    "closed_trade_legs": 6,
+    "cost_drag_usd": 115.24153311372572,
+    "ending_equity": 100399.97265058376,
+    "expectancy_r": 0.39997265058376247,
+    "expectancy_usd": 399.97265058376246,
+    "exposure_pct": 0.000794912559618442,
+    "fill_count": 10,
+    "financing_cost_usd": 0.09051629837457936,
+    "kill_count": 0,
+    "max_drawdown": -0.0009317993511723799,
+    "max_gross_leverage_used": 1.4194289109368765,
+    "max_net_beta_exposure": 0.01943586391751238,
+    "mean_holding_hours": 0.8333333333333334,
+    "mean_reversion_success_rate": 1.0,
+    "median_holding_hours": 0.8333333333333334,
+    "number_of_trades": 1,
+    "performance_by_regime": {
+      "breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "failed_breakout": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      },
+      "range": {
+        "expectancy_usd": 399.97265058376246,
+        "pnl_usd": 399.97265058376246,
+        "trades": 1,
+        "win_rate": 1.0
+      },
+      "warning": {
+        "expectancy_usd": null,
+        "pnl_usd": 0.0,
+        "trades": 0,
+        "win_rate": null
+      }
+    },
+    "profit_factor": Infinity,
+    "sharpe": 0.44774694523689795,
+    "slippage_sensitivity_return": {
+      "0.5x": 0.004550481589914446,
+      "1.0x": 0.003999726505837575,
+      "2.0x": 0.0028982163376840564
+    },
+    "sortino": 0.0,
+    "starting_capital": 100000.0,
+    "top_trade_profit_share": 1.0,
+    "top_week_profit_share": 1.0,
+    "total_return": 0.003999726505837575,
+    "turnover": 2.8433678954914248,
+    "win_rate": 1.0,
+    "worst_5_trade_legs_usd": [
+      399.97265058376246
+    ],
+    "worst_mae_r": -0.09317993511723761
+  },
+  "run_id": "5min__stock_pair_grid__XOM_CVX",
+  "strategy_name": "stock_pair_grid:XOM/CVX",
+  "timeframe": "5min",
+  "warnings": []
+}
